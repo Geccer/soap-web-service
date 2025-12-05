@@ -1,0 +1,805 @@
+[15:42:12][PluginLoader][INFO] No plugins found.
+[15:42:12][NATTCore][INFO] NATT CORE initialization done
+Version: 1.7.0 
+Configuration path: https://gitlab.com/ap5vs/test-config/soap-web-service-config/-/raw/main/test-config-7.yaml?ref_type=heads
+Configuration loading mode: FROM URL
+[15:42:12][NATTCore][INFO] Working directory path: C:\Users\tomas\Desktop\AP5VS\soap-web-service-main
+[15:42:12][NATTCore][INFO] Start loading of the configuration file ...
+[15:42:13][NetworkIO][INFO] Yaml data has been loaded from network location (https://gitlab.com/ap5vs/test-config/soap-web-service-config/-/raw/main/test-config-7.yaml?ref_type=heads)
+[15:42:13][NATTCore][INFO] Configuration loading done
+[15:42:13][NATTCore][INFO] Start building test structure according to the configuration ...
+[15:42:13][NATTCore][INFO] Test structure ...
+[15:42:13][NATTCore][INFO] Test structure building done
+[15:42:13][NATTCore][INFO] Start test executing ...
+[15:42:13][TestReportGenerator][INFO] Extenet reports generated. Final report will be saved to file: test_report.html
+[15:42:13][NATTCore][INFO] Starts execution on the root keyword  ...
+[15:42:13][MessageBuffer][INFO] Message buffer created for module with name: default
+[15:42:13][ExternalProgramRunner][INFO] (default) Run external app with command: java -jar build/libs/book-web-service-0.1.0.jar
+[15:42:13][ProcessManager][INFO] New PID (9808) added to file
+[15:42:13][WaitUntilKw][INFO] Waiting for action. Actions count: 1, Time out: 40000 ms
+[15:42:14][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: ''
+[15:42:14][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '  .   ____          _            __ _ _'
+[15:42:14][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: ' /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \'
+[15:42:14][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \'
+[15:42:14][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: ' \\/  ___)| |_)| | | | | || (_| |  ) ) ) )'
+[15:42:14][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '  '  |____| .__|_| |_|_| |_\__, | / / / /'
+[15:42:14][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: ' =========|_|==============|___/=/_/_/_/'
+[15:42:14][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: ' :: Spring Boot ::                (v3.2.0)'
+[15:42:14][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: ''
+[15:42:14][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:42:14.248+01:00  INFO 9808 --- [book-web-service] [           main] u.f.s.SOAPBookServiceApplication         : Starting SOAPBookServiceApplication v0.0.1-SNAPSHOT using Java 17.0.12 with PID 9808 (C:\Users\tomas\Desktop\AP5VS\soap-web-service-main\build\libs\book-web-service-0.1.0.jar started by tomas in C:\Users\tomas\Desktop\AP5VS\soap-web-service-main)'
+[15:42:14][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:42:14.251+01:00  INFO 9808 --- [book-web-service] [           main] u.f.s.SOAPBookServiceApplication         : No active profile set, falling back to 1 default profile: "default"'
+[15:42:14][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:42:14.970+01:00  INFO 9808 --- [book-web-service] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode'
+[15:42:14][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:42:14.970+01:00  INFO 9808 --- [book-web-service] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.'
+[15:42:15][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:42:15.020+01:00  INFO 9808 --- [book-web-service] [           main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface utb.fai.soapservice.Repository.AuthorRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.'
+[15:42:15][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:42:15.020+01:00  INFO 9808 --- [book-web-service] [           main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface utb.fai.soapservice.Repository.BookRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.'
+[15:42:15][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:42:15.020+01:00  INFO 9808 --- [book-web-service] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42 ms. Found 0 JDBC repository interfaces.'
+[15:42:15][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:42:15.030+01:00  INFO 9808 --- [book-web-service] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode'
+[15:42:15][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:42:15.030+01:00  INFO 9808 --- [book-web-service] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.'
+[15:42:15][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:42:15.066+01:00  INFO 9808 --- [book-web-service] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32 ms. Found 2 JPA repository interfaces.'
+[15:42:15][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:42:15.262+01:00  WARN 9808 --- [book-web-service] [           main] trationDelegate$BeanPostProcessorChecker : Bean 'webServiceConfig' of type [utb.fai.soapservice.WebServiceConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [annotationActionEndpointMapping]? Check the corresponding BeanPostProcessor declaration and its dependencies.'
+[15:42:15][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:42:15.263+01:00  WARN 9808 --- [book-web-service] [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [annotationActionEndpointMapping] is declared through a non-static factory method on that class; consider declaring it as static instead.'
+[15:42:15][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:42:15.297+01:00  INFO 9808 --- [book-web-service] [           main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]'
+[15:42:15][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:42:15.618+01:00  INFO 9808 --- [book-web-service] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)'
+[15:42:15][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:42:15.628+01:00  INFO 9808 --- [book-web-service] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]'
+[15:42:15][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:42:15.628+01:00  INFO 9808 --- [book-web-service] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]'
+[15:42:15][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:42:15.675+01:00  INFO 9808 --- [book-web-service] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext'
+[15:42:15][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:42:15.675+01:00  INFO 9808 --- [book-web-service] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1340 ms'
+[15:42:15][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:42:15.820+01:00  INFO 9808 --- [book-web-service] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]'
+[15:42:15][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:42:15.881+01:00  INFO 9808 --- [book-web-service] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.3.1.Final'
+[15:42:15][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:42:15.916+01:00  INFO 9808 --- [book-web-service] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled'
+[15:42:16][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:42:16.129+01:00  INFO 9808 --- [book-web-service] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer'
+[15:42:16][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:42:16.152+01:00  INFO 9808 --- [book-web-service] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:42:17.175+01:00 ERROR 9808 --- [book-web-service] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization.'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: ''
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'java.sql.SQLNonTransientConnectionException: Cannot load connection class because of underlying exception: com.mysql.cj.exceptions.WrongArgumentException: Failed to parse the host:port pair '<MYSQL_HOST>:<MYSQL_PORT>'.'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:111) ~[mysql-connector-j-8.1.0.jar!/:8.1.0]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:98) ~[mysql-connector-j-8.1.0.jar!/:8.1.0]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:90) ~[mysql-connector-j-8.1.0.jar!/:8.1.0]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:64) ~[mysql-connector-j-8.1.0.jar!/:8.1.0]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:74) ~[mysql-connector-j-8.1.0.jar!/:8.1.0]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:79) ~[mysql-connector-j-8.1.0.jar!/:8.1.0]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:131) ~[mysql-connector-j-8.1.0.jar!/:8.1.0]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:211) ~[mysql-connector-j-8.1.0.jar!/:8.1.0]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-5.0.1.jar!/:na]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359) ~[HikariCP-5.0.1.jar!/:na]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201) ~[HikariCP-5.0.1.jar!/:na]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:470) ~[HikariCP-5.0.1.jar!/:na]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561) ~[HikariCP-5.0.1.jar!/:na]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:100) ~[HikariCP-5.0.1.jar!/:na]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-5.0.1.jar!/:na]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:424) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:61) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:273) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:105) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:66) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:129) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:223) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:191) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:169) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1432) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1503) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.1.jar!/:6.1.1]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376) ~[spring-orm-6.1.1.jar!/:6.1.1]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.1.jar!/:6.1.1]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.1.jar!/:6.1.1]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352) ~[spring-orm-6.1.1.jar!/:6.1.1]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1822) ~[spring-beans-6.1.1.jar!/:6.1.1]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1771) ~[spring-beans-6.1.1.jar!/:6.1.1]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601) ~[spring-beans-6.1.1.jar!/:6.1.1]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523) ~[spring-beans-6.1.1.jar!/:6.1.1]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325) ~[spring-beans-6.1.1.jar!/:6.1.1]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.1.jar!/:6.1.1]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323) ~[spring-beans-6.1.1.jar!/:6.1.1]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-6.1.1.jar!/:6.1.1]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1173) ~[spring-context-6.1.1.jar!/:6.1.1]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:936) ~[spring-context-6.1.1.jar!/:6.1.1]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:616) ~[spring-context-6.1.1.jar!/:6.1.1]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.0.jar!/:3.2.0]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753) ~[spring-boot-3.2.0.jar!/:3.2.0]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:455) ~[spring-boot-3.2.0.jar!/:3.2.0]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.boot.SpringApplication.run(SpringApplication.java:323) ~[spring-boot-3.2.0.jar!/:3.2.0]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1342) ~[spring-boot-3.2.0.jar!/:3.2.0]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1331) ~[spring-boot-3.2.0.jar!/:3.2.0]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at utb.fai.soapservice.SOAPBookServiceApplication.main(SOAPBookServiceApplication.java:10) ~[!/:0.0.1-SNAPSHOT]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:91) ~[book-web-service-0.1.0.jar:0.0.1-SNAPSHOT]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:53) ~[book-web-service-0.1.0.jar:0.0.1-SNAPSHOT]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.boot.loader.launch.JarLauncher.main(JarLauncher.java:58) ~[book-web-service-0.1.0.jar:0.0.1-SNAPSHOT]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Caused by: com.mysql.cj.exceptions.UnableToConnectException: Cannot load connection class because of underlying exception: com.mysql.cj.exceptions.WrongArgumentException: Failed to parse the host:port pair '<MYSQL_HOST>:<MYSQL_PORT>'.'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[na:na]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[na:na]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[na:na]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:62) ~[mysql-connector-j-8.1.0.jar!/:8.1.0]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105) ~[mysql-connector-j-8.1.0.jar!/:8.1.0]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	... 54 common frames omitted'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Caused by: com.mysql.cj.exceptions.WrongArgumentException: Failed to parse the host:port pair '<MYSQL_HOST>:<MYSQL_PORT>'.'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[na:na]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[na:na]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[na:na]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:62) ~[mysql-connector-j-8.1.0.jar!/:8.1.0]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105) ~[mysql-connector-j-8.1.0.jar!/:8.1.0]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.mysql.cj.conf.ConnectionUrlParser.parseHostPortPair(ConnectionUrlParser.java:500) ~[mysql-connector-j-8.1.0.jar!/:8.1.0]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.mysql.cj.conf.ConnectionUrlParser.buildHostInfoResortingToGenericSyntaxParser(ConnectionUrlParser.java:438) ~[mysql-connector-j-8.1.0.jar!/:8.1.0]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.mysql.cj.conf.ConnectionUrlParser.parseAuthoritySegment(ConnectionUrlParser.java:270) ~[mysql-connector-j-8.1.0.jar!/:8.1.0]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.mysql.cj.conf.ConnectionUrlParser.parseAuthoritySection(ConnectionUrlParser.java:184) ~[mysql-connector-j-8.1.0.jar!/:8.1.0]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.mysql.cj.conf.ConnectionUrlParser.getHosts(ConnectionUrlParser.java:651) ~[mysql-connector-j-8.1.0.jar!/:8.1.0]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.mysql.cj.conf.ConnectionUrl$Type.getConnectionUrlInstance(ConnectionUrl.java:194) ~[mysql-connector-j-8.1.0.jar!/:8.1.0]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.mysql.cj.conf.ConnectionUrl.getConnectionUrlInstance(ConnectionUrl.java:280) ~[mysql-connector-j-8.1.0.jar!/:8.1.0]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:185) ~[mysql-connector-j-8.1.0.jar!/:8.1.0]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	... 53 common frames omitted'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Caused by: java.lang.NumberFormatException: For input string: "<MYSQL_PORT>"'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[na:na]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/java.lang.Integer.parseInt(Integer.java:668) ~[na:na]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/java.lang.Integer.parseInt(Integer.java:786) ~[na:na]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.mysql.cj.conf.ConnectionUrlParser.parseHostPortPair(ConnectionUrlParser.java:498) ~[mysql-connector-j-8.1.0.jar!/:8.1.0]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	... 60 common frames omitted'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: ''
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:42:17.187+01:00  WARN 9808 --- [book-web-service] [           main] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: ''
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'java.lang.NullPointerException: Cannot invoke "org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(java.sql.SQLException, String)" because the return value of "org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.sqlExceptionHelper()" is null'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:116) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:273) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:105) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:66) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:129) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:223) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:191) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:169) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1432) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1503) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.1.jar!/:6.1.1]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376) ~[spring-orm-6.1.1.jar!/:6.1.1]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.1.jar!/:6.1.1]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.1.jar!/:6.1.1]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352) ~[spring-orm-6.1.1.jar!/:6.1.1]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1822) ~[spring-beans-6.1.1.jar!/:6.1.1]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1771) ~[spring-beans-6.1.1.jar!/:6.1.1]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601) ~[spring-beans-6.1.1.jar!/:6.1.1]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523) ~[spring-beans-6.1.1.jar!/:6.1.1]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325) ~[spring-beans-6.1.1.jar!/:6.1.1]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.1.jar!/:6.1.1]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323) ~[spring-beans-6.1.1.jar!/:6.1.1]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-6.1.1.jar!/:6.1.1]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1173) ~[spring-context-6.1.1.jar!/:6.1.1]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:936) ~[spring-context-6.1.1.jar!/:6.1.1]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:616) ~[spring-context-6.1.1.jar!/:6.1.1]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.0.jar!/:3.2.0]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753) ~[spring-boot-3.2.0.jar!/:3.2.0]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:455) ~[spring-boot-3.2.0.jar!/:3.2.0]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.boot.SpringApplication.run(SpringApplication.java:323) ~[spring-boot-3.2.0.jar!/:3.2.0]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1342) ~[spring-boot-3.2.0.jar!/:3.2.0]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1331) ~[spring-boot-3.2.0.jar!/:3.2.0]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at utb.fai.soapservice.SOAPBookServiceApplication.main(SOAPBookServiceApplication.java:10) ~[!/:0.0.1-SNAPSHOT]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:91) ~[book-web-service-0.1.0.jar:0.0.1-SNAPSHOT]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:53) ~[book-web-service-0.1.0.jar:0.0.1-SNAPSHOT]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.boot.loader.launch.JarLauncher.main(JarLauncher.java:58) ~[book-web-service-0.1.0.jar:0.0.1-SNAPSHOT]'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: ''
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:42:17.207+01:00  WARN 9808 --- [book-web-service] [           main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:42:17.207+01:00  WARN 9808 --- [book-web-service] [           main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:42:17.735+01:00  INFO 9808 --- [book-web-service] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)'
+[15:42:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:42:17.758+01:00  INFO 9808 --- [book-web-service] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:42:18.761+01:00 ERROR 9808 --- [book-web-service] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization.'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: ''
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'java.sql.SQLNonTransientConnectionException: Cannot load connection class because of underlying exception: com.mysql.cj.exceptions.WrongArgumentException: Failed to parse the host:port pair '<MYSQL_HOST>:<MYSQL_PORT>'.'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:111) ~[mysql-connector-j-8.1.0.jar!/:8.1.0]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:98) ~[mysql-connector-j-8.1.0.jar!/:8.1.0]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:90) ~[mysql-connector-j-8.1.0.jar!/:8.1.0]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:64) ~[mysql-connector-j-8.1.0.jar!/:8.1.0]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:74) ~[mysql-connector-j-8.1.0.jar!/:8.1.0]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:79) ~[mysql-connector-j-8.1.0.jar!/:8.1.0]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:131) ~[mysql-connector-j-8.1.0.jar!/:8.1.0]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:211) ~[mysql-connector-j-8.1.0.jar!/:8.1.0]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-5.0.1.jar!/:na]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359) ~[HikariCP-5.0.1.jar!/:na]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201) ~[HikariCP-5.0.1.jar!/:na]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:470) ~[HikariCP-5.0.1.jar!/:na]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561) ~[HikariCP-5.0.1.jar!/:na]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:100) ~[HikariCP-5.0.1.jar!/:na]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-5.0.1.jar!/:na]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:424) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:46) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:39) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.tool.schema.internal.exec.ImprovedExtractionContextImpl.getJdbcConnection(ImprovedExtractionContextImpl.java:63) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.tool.schema.internal.exec.ImprovedExtractionContextImpl.getJdbcDatabaseMetaData(ImprovedExtractionContextImpl.java:70) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.tool.schema.extract.internal.InformationExtractorJdbcDatabaseMetaDataImpl.processTableResultSet(InformationExtractorJdbcDatabaseMetaDataImpl.java:64) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.tool.schema.extract.internal.AbstractInformationExtractorImpl.getTables(AbstractInformationExtractorImpl.java:570) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.tool.schema.extract.internal.DatabaseInformationImpl.getTablesInformation(DatabaseInformationImpl.java:122) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:72) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:232) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:117) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:286) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:145) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/java.util.HashMap.forEach(HashMap.java:1421) ~[na:na]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:142) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:295) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:450) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1507) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.1.jar!/:6.1.1]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376) ~[spring-orm-6.1.1.jar!/:6.1.1]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.1.jar!/:6.1.1]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.1.jar!/:6.1.1]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352) ~[spring-orm-6.1.1.jar!/:6.1.1]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1822) ~[spring-beans-6.1.1.jar!/:6.1.1]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1771) ~[spring-beans-6.1.1.jar!/:6.1.1]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601) ~[spring-beans-6.1.1.jar!/:6.1.1]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523) ~[spring-beans-6.1.1.jar!/:6.1.1]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325) ~[spring-beans-6.1.1.jar!/:6.1.1]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.1.jar!/:6.1.1]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323) ~[spring-beans-6.1.1.jar!/:6.1.1]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-6.1.1.jar!/:6.1.1]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1173) ~[spring-context-6.1.1.jar!/:6.1.1]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:936) ~[spring-context-6.1.1.jar!/:6.1.1]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:616) ~[spring-context-6.1.1.jar!/:6.1.1]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.0.jar!/:3.2.0]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753) ~[spring-boot-3.2.0.jar!/:3.2.0]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:455) ~[spring-boot-3.2.0.jar!/:3.2.0]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.boot.SpringApplication.run(SpringApplication.java:323) ~[spring-boot-3.2.0.jar!/:3.2.0]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1342) ~[spring-boot-3.2.0.jar!/:3.2.0]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1331) ~[spring-boot-3.2.0.jar!/:3.2.0]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at utb.fai.soapservice.SOAPBookServiceApplication.main(SOAPBookServiceApplication.java:10) ~[!/:0.0.1-SNAPSHOT]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:91) ~[book-web-service-0.1.0.jar:0.0.1-SNAPSHOT]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:53) ~[book-web-service-0.1.0.jar:0.0.1-SNAPSHOT]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.boot.loader.launch.JarLauncher.main(JarLauncher.java:58) ~[book-web-service-0.1.0.jar:0.0.1-SNAPSHOT]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Caused by: com.mysql.cj.exceptions.UnableToConnectException: Cannot load connection class because of underlying exception: com.mysql.cj.exceptions.WrongArgumentException: Failed to parse the host:port pair '<MYSQL_HOST>:<MYSQL_PORT>'.'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[na:na]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[na:na]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[na:na]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:62) ~[mysql-connector-j-8.1.0.jar!/:8.1.0]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105) ~[mysql-connector-j-8.1.0.jar!/:8.1.0]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	... 59 common frames omitted'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Caused by: com.mysql.cj.exceptions.WrongArgumentException: Failed to parse the host:port pair '<MYSQL_HOST>:<MYSQL_PORT>'.'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[na:na]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[na:na]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[na:na]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:62) ~[mysql-connector-j-8.1.0.jar!/:8.1.0]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105) ~[mysql-connector-j-8.1.0.jar!/:8.1.0]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.mysql.cj.conf.ConnectionUrlParser.parseHostPortPair(ConnectionUrlParser.java:500) ~[mysql-connector-j-8.1.0.jar!/:8.1.0]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.mysql.cj.conf.ConnectionUrlParser.buildHostInfoResortingToGenericSyntaxParser(ConnectionUrlParser.java:438) ~[mysql-connector-j-8.1.0.jar!/:8.1.0]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.mysql.cj.conf.ConnectionUrlParser.parseAuthoritySegment(ConnectionUrlParser.java:270) ~[mysql-connector-j-8.1.0.jar!/:8.1.0]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.mysql.cj.conf.ConnectionUrlParser.parseAuthoritySection(ConnectionUrlParser.java:184) ~[mysql-connector-j-8.1.0.jar!/:8.1.0]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.mysql.cj.conf.ConnectionUrlParser.getHosts(ConnectionUrlParser.java:651) ~[mysql-connector-j-8.1.0.jar!/:8.1.0]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.mysql.cj.conf.ConnectionUrl$Type.getConnectionUrlInstance(ConnectionUrl.java:194) ~[mysql-connector-j-8.1.0.jar!/:8.1.0]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.mysql.cj.conf.ConnectionUrl.getConnectionUrlInstance(ConnectionUrl.java:280) ~[mysql-connector-j-8.1.0.jar!/:8.1.0]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:185) ~[mysql-connector-j-8.1.0.jar!/:8.1.0]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	... 58 common frames omitted'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Caused by: java.lang.NumberFormatException: For input string: "<MYSQL_PORT>"'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[na:na]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/java.lang.Integer.parseInt(Integer.java:668) ~[na:na]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/java.lang.Integer.parseInt(Integer.java:786) ~[na:na]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.mysql.cj.conf.ConnectionUrlParser.parseHostPortPair(ConnectionUrlParser.java:498) ~[mysql-connector-j-8.1.0.jar!/:8.1.0]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	... 65 common frames omitted'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: ''
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:42:18.770+01:00  WARN 9808 --- [book-web-service] [           main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: 08001'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:42:18.770+01:00 ERROR 9808 --- [book-web-service] [           main] o.h.engine.jdbc.spi.SqlExceptionHelper   : Cannot load connection class because of underlying exception: com.mysql.cj.exceptions.WrongArgumentException: Failed to parse the host:port pair '<MYSQL_HOST>:<MYSQL_PORT>'.'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:42:18.774+01:00 ERROR 9808 --- [book-web-service] [           main] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution [Cannot load connection class because of underlying exception: com.mysql.cj.exceptions.WrongArgumentException: Failed to parse the host:port pair '<MYSQL_HOST>:<MYSQL_PORT>'.] [n/a]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:42:18.776+01:00  WARN 9808 --- [book-web-service] [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution [Cannot load connection class because of underlying exception: com.mysql.cj.exceptions.WrongArgumentException: Failed to parse the host:port pair '<MYSQL_HOST>:<MYSQL_PORT>'.] [n/a]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:42:18.778+01:00  INFO 9808 --- [book-web-service] [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:42:18.788+01:00  INFO 9808 --- [book-web-service] [           main] .s.b.a.l.ConditionEvaluationReportLogger : '
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: ''
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:42:18.802+01:00 ERROR 9808 --- [book-web-service] [           main] o.s.boot.SpringApplication               : Application run failed'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: ''
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution [Cannot load connection class because of underlying exception: com.mysql.cj.exceptions.WrongArgumentException: Failed to parse the host:port pair '<MYSQL_HOST>:<MYSQL_PORT>'.] [n/a]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1775) ~[spring-beans-6.1.1.jar!/:6.1.1]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601) ~[spring-beans-6.1.1.jar!/:6.1.1]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523) ~[spring-beans-6.1.1.jar!/:6.1.1]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325) ~[spring-beans-6.1.1.jar!/:6.1.1]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.1.jar!/:6.1.1]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323) ~[spring-beans-6.1.1.jar!/:6.1.1]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-6.1.1.jar!/:6.1.1]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1173) ~[spring-context-6.1.1.jar!/:6.1.1]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:936) ~[spring-context-6.1.1.jar!/:6.1.1]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:616) ~[spring-context-6.1.1.jar!/:6.1.1]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.0.jar!/:3.2.0]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753) ~[spring-boot-3.2.0.jar!/:3.2.0]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:455) ~[spring-boot-3.2.0.jar!/:3.2.0]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.boot.SpringApplication.run(SpringApplication.java:323) ~[spring-boot-3.2.0.jar!/:3.2.0]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1342) ~[spring-boot-3.2.0.jar!/:3.2.0]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1331) ~[spring-boot-3.2.0.jar!/:3.2.0]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at utb.fai.soapservice.SOAPBookServiceApplication.main(SOAPBookServiceApplication.java:10) ~[!/:0.0.1-SNAPSHOT]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:91) ~[book-web-service-0.1.0.jar:0.0.1-SNAPSHOT]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:53) ~[book-web-service-0.1.0.jar:0.0.1-SNAPSHOT]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.boot.loader.launch.JarLauncher.main(JarLauncher.java:58) ~[book-web-service-0.1.0.jar:0.0.1-SNAPSHOT]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Caused by: jakarta.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution [Cannot load connection class because of underlying exception: com.mysql.cj.exceptions.WrongArgumentException: Failed to parse the host:port pair '<MYSQL_HOST>:<MYSQL_PORT>'.] [n/a]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421) ~[spring-orm-6.1.1.jar!/:6.1.1]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.1.jar!/:6.1.1]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352) ~[spring-orm-6.1.1.jar!/:6.1.1]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1822) ~[spring-beans-6.1.1.jar!/:6.1.1]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1771) ~[spring-beans-6.1.1.jar!/:6.1.1]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	... 23 common frames omitted'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Caused by: org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution [Cannot load connection class because of underlying exception: com.mysql.cj.exceptions.WrongArgumentException: Failed to parse the host:port pair '<MYSQL_HOST>:<MYSQL_PORT>'.] [n/a]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:51) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:94) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:74) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:39) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.tool.schema.internal.exec.ImprovedExtractionContextImpl.getJdbcConnection(ImprovedExtractionContextImpl.java:63) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.tool.schema.internal.exec.ImprovedExtractionContextImpl.getJdbcDatabaseMetaData(ImprovedExtractionContextImpl.java:70) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.tool.schema.extract.internal.InformationExtractorJdbcDatabaseMetaDataImpl.processTableResultSet(InformationExtractorJdbcDatabaseMetaDataImpl.java:64) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.tool.schema.extract.internal.AbstractInformationExtractorImpl.getTables(AbstractInformationExtractorImpl.java:570) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.tool.schema.extract.internal.DatabaseInformationImpl.getTablesInformation(DatabaseInformationImpl.java:122) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:72) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:232) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:117) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:286) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:145) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/java.util.HashMap.forEach(HashMap.java:1421) ~[na:na]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:142) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:295) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:450) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1507) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.1.jar!/:6.1.1]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376) ~[spring-orm-6.1.1.jar!/:6.1.1]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.1.jar!/:6.1.1]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	... 27 common frames omitted'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Caused by: java.sql.SQLNonTransientConnectionException: Cannot load connection class because of underlying exception: com.mysql.cj.exceptions.WrongArgumentException: Failed to parse the host:port pair '<MYSQL_HOST>:<MYSQL_PORT>'.'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:111) ~[mysql-connector-j-8.1.0.jar!/:8.1.0]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:98) ~[mysql-connector-j-8.1.0.jar!/:8.1.0]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:90) ~[mysql-connector-j-8.1.0.jar!/:8.1.0]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:64) ~[mysql-connector-j-8.1.0.jar!/:8.1.0]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:74) ~[mysql-connector-j-8.1.0.jar!/:8.1.0]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:79) ~[mysql-connector-j-8.1.0.jar!/:8.1.0]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:131) ~[mysql-connector-j-8.1.0.jar!/:8.1.0]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:211) ~[mysql-connector-j-8.1.0.jar!/:8.1.0]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-5.0.1.jar!/:na]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359) ~[HikariCP-5.0.1.jar!/:na]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201) ~[HikariCP-5.0.1.jar!/:na]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:470) ~[HikariCP-5.0.1.jar!/:na]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561) ~[HikariCP-5.0.1.jar!/:na]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:100) ~[HikariCP-5.0.1.jar!/:na]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-5.0.1.jar!/:na]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:424) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:46) ~[hibernate-core-6.3.1.Final.jar!/:6.3.1.Final]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	... 48 common frames omitted'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Caused by: com.mysql.cj.exceptions.UnableToConnectException: Cannot load connection class because of underlying exception: com.mysql.cj.exceptions.WrongArgumentException: Failed to parse the host:port pair '<MYSQL_HOST>:<MYSQL_PORT>'.'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[na:na]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[na:na]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[na:na]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:62) ~[mysql-connector-j-8.1.0.jar!/:8.1.0]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105) ~[mysql-connector-j-8.1.0.jar!/:8.1.0]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	... 59 common frames omitted'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Caused by: com.mysql.cj.exceptions.WrongArgumentException: Failed to parse the host:port pair '<MYSQL_HOST>:<MYSQL_PORT>'.'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[na:na]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[na:na]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[na:na]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:62) ~[mysql-connector-j-8.1.0.jar!/:8.1.0]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105) ~[mysql-connector-j-8.1.0.jar!/:8.1.0]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.mysql.cj.conf.ConnectionUrlParser.parseHostPortPair(ConnectionUrlParser.java:500) ~[mysql-connector-j-8.1.0.jar!/:8.1.0]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.mysql.cj.conf.ConnectionUrlParser.buildHostInfoResortingToGenericSyntaxParser(ConnectionUrlParser.java:438) ~[mysql-connector-j-8.1.0.jar!/:8.1.0]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.mysql.cj.conf.ConnectionUrlParser.parseAuthoritySegment(ConnectionUrlParser.java:270) ~[mysql-connector-j-8.1.0.jar!/:8.1.0]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.mysql.cj.conf.ConnectionUrlParser.parseAuthoritySection(ConnectionUrlParser.java:184) ~[mysql-connector-j-8.1.0.jar!/:8.1.0]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.mysql.cj.conf.ConnectionUrlParser.getHosts(ConnectionUrlParser.java:651) ~[mysql-connector-j-8.1.0.jar!/:8.1.0]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.mysql.cj.conf.ConnectionUrl$Type.getConnectionUrlInstance(ConnectionUrl.java:194) ~[mysql-connector-j-8.1.0.jar!/:8.1.0]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.mysql.cj.conf.ConnectionUrl.getConnectionUrlInstance(ConnectionUrl.java:280) ~[mysql-connector-j-8.1.0.jar!/:8.1.0]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:185) ~[mysql-connector-j-8.1.0.jar!/:8.1.0]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	... 58 common frames omitted'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Caused by: java.lang.NumberFormatException: For input string: "<MYSQL_PORT>"'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[na:na]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/java.lang.Integer.parseInt(Integer.java:668) ~[na:na]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/java.lang.Integer.parseInt(Integer.java:786) ~[na:na]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at com.mysql.cj.conf.ConnectionUrlParser.parseHostPortPair(ConnectionUrlParser.java:498) ~[mysql-connector-j-8.1.0.jar!/:8.1.0]'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	... 65 common frames omitted'
+[15:42:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: ''
+[15:42:18][ProcessManager][INFO] PID (9808) removed from file
+[15:42:18][ExternalProgramRunner][WARNING] (default) External application ends with error: 1
+[15:42:53][WaitUntilKw][WARNING] Timeout.. Action was not invoked!
+[15:42:53][MessageBuffer][INFO] Message buffer created for module with name: soap-tester
+[15:42:53][LocalHostIO][INFO] Text has been loaded from file (request/request_get_author.xml)
+[15:42:53][NATTContext][INFO] Data has been stored in to the variable 'tmp-get-author'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:getAuthorRequest>
+         <lib:authorId>TMP_ID</lib:authorId>
+      </lib:getAuthorRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:42:53][LocalHostIO][INFO] Text has been loaded from file (request/request_create_author.xml)
+[15:42:53][NATTContext][INFO] Data has been stored in to the variable 'tmp-create-author'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:createAuthorRequest>
+         <lib:author>
+            <lib:id>TMP_ID</lib:id>
+            <lib:name>TMP_NAME</lib:name>
+            <lib:surname>TMP_SURNAME</lib:surname>
+         </lib:author>
+      </lib:createAuthorRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:42:53][LocalHostIO][INFO] Text has been loaded from file (request/request_delete_author.xml)
+[15:42:53][NATTContext][INFO] Data has been stored in to the variable 'tmp-delete-author'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:deleteAuthorRequest>
+         <lib:authorId>TMP_ID</lib:authorId>
+      </lib:deleteAuthorRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:42:53][LocalHostIO][INFO] Text has been loaded from file (request/request_get_book.xml)
+[15:42:53][NATTContext][INFO] Data has been stored in to the variable 'tmp-get-book'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:getBookRequest>
+         <lib:bookId>TMP_ID</lib:bookId>
+      </lib:getBookRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:42:53][LocalHostIO][INFO] Text has been loaded from file (request/request_create_book.xml)
+[15:42:53][NATTContext][INFO] Data has been stored in to the variable 'tmp-create-book'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:createBookRequest>
+         <lib:book>
+            <lib:id>TMP_ID</lib:id>
+            <lib:title>TMP_TITLE</lib:title>
+            <lib:authorID>TMP_AUTHOR_ID</lib:authorID>
+         </lib:book>
+      </lib:createBookRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:42:53][LocalHostIO][INFO] Text has been loaded from file (request/request_update_book.xml)
+[15:42:53][NATTContext][INFO] Data has been stored in to the variable 'tmp-update-book'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:updateBookRequest>
+         <lib:bookId>TMP_ID</lib:bookId>
+         <lib:book>
+            <lib:id>TMP_ID</lib:id>
+            <lib:title>TMP_TITLE</lib:title>
+            <lib:authorID>TMP_AUTHOR_ID</lib:authorID>
+         </lib:book>
+      </lib:updateBookRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:42:53][LocalHostIO][INFO] Text has been loaded from file (request/request_delete_book.xml)
+[15:42:53][NATTContext][INFO] Data has been stored in to the variable 'tmp-delete-book'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:deleteBookRequest>
+         <lib:bookId>TMP_ID</lib:bookId>
+      </lib:deleteBookRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:42:53][TestSuiteKw][INFO] Test case 'Test vytvoření autora' starts executing now
+[15:42:53][NATTContext][INFO] Data has been stored in to the variable 'request'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:createAuthorRequest>
+         <lib:author>
+            <lib:id>0</lib:id>
+            <lib:name>George</lib:name>
+            <lib:surname>Orwell</lib:surname>
+         </lib:author>
+      </lib:createAuthorRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:42:53][SOAPTester][INFO] (soap-tester) Sending a request on URL: http://localhost:8080/ws
+[15:42:53][SOAPTester][WARNING] (soap-tester) Failed to send request: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+[15:42:53][NATTContext][INFO] Data has been stored in to the variable 'id'. Data value: 
+[15:42:53][NATTContext][INFO] Data has been stored in to the variable 'request'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:getAuthorRequest>
+         <lib:authorId></lib:authorId>
+      </lib:getAuthorRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:42:53][SOAPTester][INFO] (soap-tester) Sending a request on URL: http://localhost:8080/ws
+[15:42:53][SOAPTester][WARNING] (soap-tester) Failed to send request: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+[15:42:53][AssertJsonKw][WARNING] Assertion failed. Variable 'soap-tester-last-msg' not found!
+[15:42:53][TestSuiteKw][ERROR] Test suite 'Testování správy autorů' - Test case 'Test vytvoření autora' failed
+[15:42:53][MessageBuffer][INFO] Message buffer cleared
+[15:42:54][TestSuiteKw][INFO] Test case 'Test vytvoření autora s neplatnými údaji' starts executing now
+[15:42:54][NATTContext][INFO] Data has been stored in to the variable 'request'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:createAuthorRequest>
+         <lib:author>
+            <lib:id>0</lib:id>
+            <lib:name>Invalid name</lib:name>
+            <lib:surname>Surname</lib:surname>
+         </lib:author>
+      </lib:createAuthorRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:42:54][SOAPTester][INFO] (soap-tester) Sending a request on URL: http://localhost:8080/ws
+[15:42:54][SOAPTester][WARNING] (soap-tester) Failed to send request: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+[15:42:54][AssertEqualsKw][WARNING] Assertion failed. Variable 'soap-tester-last-msg' not found!
+[15:42:54][TestSuiteKw][ERROR] Test suite 'Testování správy autorů' - Test case 'Test vytvoření autora s neplatnými údaji' failed
+[15:42:54][MessageBuffer][INFO] Message buffer cleared
+[15:42:54][TestSuiteKw][INFO] Test case 'Test odstranění autora' starts executing now
+[15:42:54][NATTContext][INFO] Data has been stored in to the variable 'request'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:createAuthorRequest>
+         <lib:author>
+            <lib:id>0</lib:id>
+            <lib:name>Ernest</lib:name>
+            <lib:surname>Hemingway</lib:surname>
+         </lib:author>
+      </lib:createAuthorRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:42:54][SOAPTester][INFO] (soap-tester) Sending a request on URL: http://localhost:8080/ws
+[15:42:54][SOAPTester][WARNING] (soap-tester) Failed to send request: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+[15:42:54][NATTContext][INFO] Data has been stored in to the variable 'id'. Data value: 
+[15:42:54][NATTContext][INFO] Data has been stored in to the variable 'request'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:deleteAuthorRequest>
+         <lib:authorId></lib:authorId>
+      </lib:deleteAuthorRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:42:54][SOAPTester][INFO] (soap-tester) Sending a request on URL: http://localhost:8080/ws
+[15:42:54][SOAPTester][WARNING] (soap-tester) Failed to send request: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+[15:42:54][NATTContext][INFO] Data has been stored in to the variable 'request'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:getAuthorRequest>
+         <lib:authorId></lib:authorId>
+      </lib:getAuthorRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:42:54][SOAPTester][INFO] (soap-tester) Sending a request on URL: http://localhost:8080/ws
+[15:42:54][SOAPTester][WARNING] (soap-tester) Failed to send request: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+[15:42:54][AssertEqualsKw][WARNING] Assertion failed. Variable 'soap-tester-last-msg' not found!
+[15:42:54][TestSuiteKw][ERROR] Test suite 'Testování správy autorů' - Test case 'Test odstranění autora' failed
+[15:42:55][MessageBuffer][INFO] Message buffer cleared
+[15:42:55][MessageBuffer][INFO] Message buffer cleared
+[15:42:55][NATTContext][INFO] Data has been stored in to the variable 'request'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:createAuthorRequest>
+         <lib:author>
+            <lib:id>0</lib:id>
+            <lib:name>George</lib:name>
+            <lib:surname>Orwell</lib:surname>
+         </lib:author>
+      </lib:createAuthorRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:42:55][SOAPTester][INFO] (soap-tester) Sending a request on URL: http://localhost:8080/ws
+[15:42:55][SOAPTester][WARNING] (soap-tester) Failed to send request: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+[15:42:55][NATTContext][INFO] Data has been stored in to the variable 'id-author'. Data value: 
+[15:42:55][TestSuiteKw][INFO] Test case 'Test vytvoření knihy' starts executing now
+[15:42:55][NATTContext][INFO] Data has been stored in to the variable 'request'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:createBookRequest>
+         <lib:book>
+            <lib:id>0</lib:id>
+            <lib:title>Animal Farm</lib:title>
+            <lib:authorID></lib:authorID>
+         </lib:book>
+      </lib:createBookRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:42:55][SOAPTester][INFO] (soap-tester) Sending a request on URL: http://localhost:8080/ws
+[15:42:55][SOAPTester][WARNING] (soap-tester) Failed to send request: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+[15:42:55][NATTContext][INFO] Data has been stored in to the variable 'id-book'. Data value: 
+[15:42:55][NATTContext][INFO] Data has been stored in to the variable 'request'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:getBookRequest>
+         <lib:bookId></lib:bookId>
+      </lib:getBookRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:42:55][SOAPTester][INFO] (soap-tester) Sending a request on URL: http://localhost:8080/ws
+[15:42:55][SOAPTester][WARNING] (soap-tester) Failed to send request: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+[15:42:55][AssertJsonKw][WARNING] Assertion failed. Variable 'soap-tester-last-msg' not found!
+[15:42:55][TestSuiteKw][ERROR] Test suite 'Testování správy knih' - Test case 'Test vytvoření knihy' failed
+[15:42:55][MessageBuffer][INFO] Message buffer cleared
+[15:42:56][TestSuiteKw][INFO] Test case 'Test vytvoření knihy s neplatným údajem' starts executing now
+[15:42:56][NATTContext][INFO] Data has been stored in to the variable 'request'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:createBookRequest>
+         <lib:book>
+            <lib:id>0</lib:id>
+            <lib:title></lib:title>
+            <lib:authorID></lib:authorID>
+         </lib:book>
+      </lib:createBookRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:42:56][SOAPTester][INFO] (soap-tester) Sending a request on URL: http://localhost:8080/ws
+[15:42:56][SOAPTester][WARNING] (soap-tester) Failed to send request: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+[15:42:56][AssertEqualsKw][WARNING] Assertion failed. Variable 'soap-tester-last-msg' not found!
+[15:42:56][TestSuiteKw][ERROR] Test suite 'Testování správy knih' - Test case 'Test vytvoření knihy s neplatným údajem' failed
+[15:42:56][MessageBuffer][INFO] Message buffer cleared
+[15:42:56][TestSuiteKw][INFO] Test case 'Test změny dat knihy' starts executing now
+[15:42:56][NATTContext][INFO] Data has been stored in to the variable 'request'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:createBookRequest>
+         <lib:book>
+            <lib:id>0</lib:id>
+            <lib:title>1984</lib:title>
+            <lib:authorID></lib:authorID>
+         </lib:book>
+      </lib:createBookRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:42:56][SOAPTester][INFO] (soap-tester) Sending a request on URL: http://localhost:8080/ws
+[15:42:56][SOAPTester][WARNING] (soap-tester) Failed to send request: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+[15:42:56][NATTContext][INFO] Data has been stored in to the variable 'id-book'. Data value: 
+[15:42:56][NATTContext][INFO] Data has been stored in to the variable 'request'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:updateBookRequest>
+         <lib:bookId></lib:bookId>
+         <lib:book>
+            <lib:id></lib:id>
+            <lib:title>The Road to Wigan Pier</lib:title>
+            <lib:authorID></lib:authorID>
+         </lib:book>
+      </lib:updateBookRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:42:56][SOAPTester][INFO] (soap-tester) Sending a request on URL: http://localhost:8080/ws
+[15:42:56][SOAPTester][WARNING] (soap-tester) Failed to send request: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+[15:42:56][NATTContext][INFO] Data has been stored in to the variable 'request'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:getBookRequest>
+         <lib:bookId></lib:bookId>
+      </lib:getBookRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:42:56][SOAPTester][INFO] (soap-tester) Sending a request on URL: http://localhost:8080/ws
+[15:42:56][SOAPTester][WARNING] (soap-tester) Failed to send request: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+[15:42:56][AssertJsonKw][WARNING] Assertion failed. Variable 'soap-tester-last-msg' not found!
+[15:42:56][TestSuiteKw][ERROR] Test suite 'Testování správy knih' - Test case 'Test změny dat knihy' failed
+[15:42:57][MessageBuffer][INFO] Message buffer cleared
+[15:42:57][TestSuiteKw][INFO] Test case 'Test odstranění knihy' starts executing now
+[15:42:57][NATTContext][INFO] Data has been stored in to the variable 'request'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:createBookRequest>
+         <lib:book>
+            <lib:id>0</lib:id>
+            <lib:title>Down and Out in Paris and London</lib:title>
+            <lib:authorID></lib:authorID>
+         </lib:book>
+      </lib:createBookRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:42:57][SOAPTester][INFO] (soap-tester) Sending a request on URL: http://localhost:8080/ws
+[15:42:57][SOAPTester][WARNING] (soap-tester) Failed to send request: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+[15:42:57][NATTContext][INFO] Data has been stored in to the variable 'id-book'. Data value: 
+[15:42:57][NATTContext][INFO] Data has been stored in to the variable 'request'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:getBookRequest>
+         <lib:bookId></lib:bookId>
+      </lib:getBookRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:42:57][SOAPTester][INFO] (soap-tester) Sending a request on URL: http://localhost:8080/ws
+[15:42:57][SOAPTester][WARNING] (soap-tester) Failed to send request: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+[15:42:57][AssertJsonKw][WARNING] Assertion failed. Variable 'soap-tester-last-msg' not found!
+[15:42:57][NATTContext][INFO] Data has been stored in to the variable 'request'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:deleteBookRequest>
+         <lib:bookId></lib:bookId>
+      </lib:deleteBookRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:42:57][SOAPTester][INFO] (soap-tester) Sending a request on URL: http://localhost:8080/ws
+[15:42:57][SOAPTester][WARNING] (soap-tester) Failed to send request: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+[15:42:57][NATTContext][INFO] Data has been stored in to the variable 'request'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:getBookRequest>
+         <lib:bookId></lib:bookId>
+      </lib:getBookRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:42:57][SOAPTester][INFO] (soap-tester) Sending a request on URL: http://localhost:8080/ws
+[15:42:57][SOAPTester][WARNING] (soap-tester) Failed to send request: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+[15:42:57][AssertEqualsKw][WARNING] Assertion failed. Variable 'soap-tester-last-msg' not found!
+[15:42:57][TestSuiteKw][ERROR] Test suite 'Testování správy knih' - Test case 'Test odstranění knihy' failed
+[15:42:57][MessageBuffer][INFO] Message buffer cleared
+[15:42:58][MessageBuffer][INFO] Message buffer cleared
+[15:42:58][MessageBuffer][INFO] Message buffer cleared
+[15:42:58][SOAPTester][INFO] (soap-tester) SOAP tester [soap-tester] terminated
+[15:42:58][NATTCore][INFO] Test executing finished
+[15:42:58][NATTCore][INFO] Start generating test report
+[15:42:58][TestReportGenerator][INFO] Report saved to file
+[15:42:58][NATTCore][WARNING] Failed test cases: "Test root initialization", "Test suite 'Testování správy knih' initialization", "Test vytvoření autora", "Test vytvoření autora s neplatnými údaji", "Test odstranění autora", "Test vytvoření knihy", "Test vytvoření knihy s neplatným údajem", "Test změny dat knihy", "Test odstranění knihy"
+[15:42:58][NATTCore][INFO] Final score: 0.000000
+[15:42:58][NATTCore][ERROR] Testing done. Leaving status: FAILED

@@ -1,0 +1,23 @@
+[15:46:05][PluginLoader][INFO] No plugins found.
+[15:46:05][NATTCore][INFO] NATT CORE initialization done
+Version: 1.7.0 
+Configuration path: https://gitlab.com/ap5vs/test-config/soap-web-service-config/-/raw/main/test-config-7.yaml?ref_type=heads
+Configuration loading mode: FROM URL
+[15:46:05][NATTCore][INFO] Working directory path: C:\Users\tomas\Desktop\AP5VS\soap-web-service-main
+[15:46:05][NATTCore][INFO] Start loading of the configuration file ...
+[15:46:06][NetworkIO][INFO] Yaml data has been loaded from network location (https://gitlab.com/ap5vs/test-config/soap-web-service-config/-/raw/main/test-config-7.yaml?ref_type=heads)
+[15:46:06][NATTCore][INFO] Configuration loading done
+[15:46:06][NATTCore][INFO] Start building test structure according to the configuration ...
+[15:46:06][NATTCore][INFO] Test structure ...
+[15:46:06][NATTCore][INFO] Test structure building done
+[15:46:06][NATTCore][INFO] Start test executing ...
+[15:46:06][TestReportGenerator][INFO] Extenet reports generated. Final report will be saved to file: test_report.html
+[15:46:06][NATTCore][INFO] Starts execution on the root keyword  ...
+[15:46:06][MessageBuffer][INFO] Message buffer created for module with name: default
+[15:46:06][ExternalProgramRunner][INFO] (default) Run external app with command: java -jar build/libs/book-web-service-0.1.0.jar
+[15:46:06][ProcessManager][INFO] New PID (19656) added to file
+[15:46:06][WaitUntilKw][INFO] Waiting for action. Actions count: 1, Time out: 40000 ms
+[15:46:06][ProcessManager][INFO] PID (19656) removed from file
+[15:46:06][ExternalProgramRunner][WARNING] (default) External application ends with error: 1
+[15:46:06][ExternalProgramRunner][WARNING] (default) Error message from external application: Error: Unable to access jarfile build/libs/book-web-service-0.1.0.jar
+

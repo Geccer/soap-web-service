@@ -1,0 +1,401 @@
+[15:44:07][PluginLoader][INFO] No plugins found.
+[15:44:07][NATTCore][INFO] NATT CORE initialization done
+Version: 1.7.0 
+Configuration path: https://gitlab.com/ap5vs/test-config/soap-web-service-config/-/raw/main/test-config-7.yaml?ref_type=heads
+Configuration loading mode: FROM URL
+[15:44:07][NATTCore][INFO] Working directory path: C:\Users\tomas\Desktop\AP5VS\soap-web-service-main
+[15:44:07][NATTCore][INFO] Start loading of the configuration file ...
+[15:44:07][NetworkIO][INFO] Yaml data has been loaded from network location (https://gitlab.com/ap5vs/test-config/soap-web-service-config/-/raw/main/test-config-7.yaml?ref_type=heads)
+[15:44:07][NATTCore][INFO] Configuration loading done
+[15:44:07][NATTCore][INFO] Start building test structure according to the configuration ...
+[15:44:07][NATTCore][INFO] Test structure ...
+[15:44:07][NATTCore][INFO] Test structure building done
+[15:44:07][NATTCore][INFO] Start test executing ...
+[15:44:07][TestReportGenerator][INFO] Extenet reports generated. Final report will be saved to file: test_report.html
+[15:44:07][NATTCore][INFO] Starts execution on the root keyword  ...
+[15:44:07][MessageBuffer][INFO] Message buffer created for module with name: default
+[15:44:07][ExternalProgramRunner][INFO] (default) Run external app with command: java -jar build/libs/book-web-service-0.1.0.jar
+[15:44:07][ProcessManager][INFO] New PID (24436) added to file
+[15:44:07][WaitUntilKw][INFO] Waiting for action. Actions count: 1, Time out: 40000 ms
+[15:44:07][ProcessManager][INFO] PID (24436) removed from file
+[15:44:07][ExternalProgramRunner][WARNING] (default) External application ends with error: 1
+[15:44:07][ExternalProgramRunner][WARNING] (default) Error message from external application: Error: Unable to access jarfile build/libs/book-web-service-0.1.0.jar
+
+[15:44:47][WaitUntilKw][WARNING] Timeout.. Action was not invoked!
+[15:44:47][MessageBuffer][INFO] Message buffer created for module with name: soap-tester
+[15:44:47][LocalHostIO][INFO] Text has been loaded from file (request/request_get_author.xml)
+[15:44:47][NATTContext][INFO] Data has been stored in to the variable 'tmp-get-author'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:getAuthorRequest>
+         <lib:authorId>TMP_ID</lib:authorId>
+      </lib:getAuthorRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:44:47][LocalHostIO][INFO] Text has been loaded from file (request/request_create_author.xml)
+[15:44:47][NATTContext][INFO] Data has been stored in to the variable 'tmp-create-author'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:createAuthorRequest>
+         <lib:author>
+            <lib:id>TMP_ID</lib:id>
+            <lib:name>TMP_NAME</lib:name>
+            <lib:surname>TMP_SURNAME</lib:surname>
+         </lib:author>
+      </lib:createAuthorRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:44:47][LocalHostIO][INFO] Text has been loaded from file (request/request_delete_author.xml)
+[15:44:47][NATTContext][INFO] Data has been stored in to the variable 'tmp-delete-author'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:deleteAuthorRequest>
+         <lib:authorId>TMP_ID</lib:authorId>
+      </lib:deleteAuthorRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:44:47][LocalHostIO][INFO] Text has been loaded from file (request/request_get_book.xml)
+[15:44:47][NATTContext][INFO] Data has been stored in to the variable 'tmp-get-book'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:getBookRequest>
+         <lib:bookId>TMP_ID</lib:bookId>
+      </lib:getBookRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:44:47][LocalHostIO][INFO] Text has been loaded from file (request/request_create_book.xml)
+[15:44:47][NATTContext][INFO] Data has been stored in to the variable 'tmp-create-book'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:createBookRequest>
+         <lib:book>
+            <lib:id>TMP_ID</lib:id>
+            <lib:title>TMP_TITLE</lib:title>
+            <lib:authorID>TMP_AUTHOR_ID</lib:authorID>
+         </lib:book>
+      </lib:createBookRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:44:47][LocalHostIO][INFO] Text has been loaded from file (request/request_update_book.xml)
+[15:44:47][NATTContext][INFO] Data has been stored in to the variable 'tmp-update-book'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:updateBookRequest>
+         <lib:bookId>TMP_ID</lib:bookId>
+         <lib:book>
+            <lib:id>TMP_ID</lib:id>
+            <lib:title>TMP_TITLE</lib:title>
+            <lib:authorID>TMP_AUTHOR_ID</lib:authorID>
+         </lib:book>
+      </lib:updateBookRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:44:47][LocalHostIO][INFO] Text has been loaded from file (request/request_delete_book.xml)
+[15:44:47][NATTContext][INFO] Data has been stored in to the variable 'tmp-delete-book'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:deleteBookRequest>
+         <lib:bookId>TMP_ID</lib:bookId>
+      </lib:deleteBookRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:44:47][TestSuiteKw][INFO] Test case 'Test vytvoření autora' starts executing now
+[15:44:47][NATTContext][INFO] Data has been stored in to the variable 'request'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:createAuthorRequest>
+         <lib:author>
+            <lib:id>0</lib:id>
+            <lib:name>George</lib:name>
+            <lib:surname>Orwell</lib:surname>
+         </lib:author>
+      </lib:createAuthorRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:44:47][SOAPTester][INFO] (soap-tester) Sending a request on URL: http://localhost:8080/ws
+[15:44:47][SOAPTester][WARNING] (soap-tester) Failed to send request: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+[15:44:47][NATTContext][INFO] Data has been stored in to the variable 'id'. Data value: 
+[15:44:47][NATTContext][INFO] Data has been stored in to the variable 'request'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:getAuthorRequest>
+         <lib:authorId></lib:authorId>
+      </lib:getAuthorRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:44:47][SOAPTester][INFO] (soap-tester) Sending a request on URL: http://localhost:8080/ws
+[15:44:47][SOAPTester][WARNING] (soap-tester) Failed to send request: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+[15:44:47][AssertJsonKw][WARNING] Assertion failed. Variable 'soap-tester-last-msg' not found!
+[15:44:47][TestSuiteKw][ERROR] Test suite 'Testování správy autorů' - Test case 'Test vytvoření autora' failed
+[15:44:47][MessageBuffer][INFO] Message buffer cleared
+[15:44:48][TestSuiteKw][INFO] Test case 'Test vytvoření autora s neplatnými údaji' starts executing now
+[15:44:48][NATTContext][INFO] Data has been stored in to the variable 'request'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:createAuthorRequest>
+         <lib:author>
+            <lib:id>0</lib:id>
+            <lib:name>Invalid name</lib:name>
+            <lib:surname>Surname</lib:surname>
+         </lib:author>
+      </lib:createAuthorRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:44:48][SOAPTester][INFO] (soap-tester) Sending a request on URL: http://localhost:8080/ws
+[15:44:48][SOAPTester][WARNING] (soap-tester) Failed to send request: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+[15:44:48][AssertEqualsKw][WARNING] Assertion failed. Variable 'soap-tester-last-msg' not found!
+[15:44:48][TestSuiteKw][ERROR] Test suite 'Testování správy autorů' - Test case 'Test vytvoření autora s neplatnými údaji' failed
+[15:44:48][MessageBuffer][INFO] Message buffer cleared
+[15:44:49][TestSuiteKw][INFO] Test case 'Test odstranění autora' starts executing now
+[15:44:49][NATTContext][INFO] Data has been stored in to the variable 'request'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:createAuthorRequest>
+         <lib:author>
+            <lib:id>0</lib:id>
+            <lib:name>Ernest</lib:name>
+            <lib:surname>Hemingway</lib:surname>
+         </lib:author>
+      </lib:createAuthorRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:44:49][SOAPTester][INFO] (soap-tester) Sending a request on URL: http://localhost:8080/ws
+[15:44:49][SOAPTester][WARNING] (soap-tester) Failed to send request: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+[15:44:49][NATTContext][INFO] Data has been stored in to the variable 'id'. Data value: 
+[15:44:49][NATTContext][INFO] Data has been stored in to the variable 'request'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:deleteAuthorRequest>
+         <lib:authorId></lib:authorId>
+      </lib:deleteAuthorRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:44:49][SOAPTester][INFO] (soap-tester) Sending a request on URL: http://localhost:8080/ws
+[15:44:49][SOAPTester][WARNING] (soap-tester) Failed to send request: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+[15:44:49][NATTContext][INFO] Data has been stored in to the variable 'request'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:getAuthorRequest>
+         <lib:authorId></lib:authorId>
+      </lib:getAuthorRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:44:49][SOAPTester][INFO] (soap-tester) Sending a request on URL: http://localhost:8080/ws
+[15:44:49][SOAPTester][WARNING] (soap-tester) Failed to send request: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+[15:44:49][AssertEqualsKw][WARNING] Assertion failed. Variable 'soap-tester-last-msg' not found!
+[15:44:49][TestSuiteKw][ERROR] Test suite 'Testování správy autorů' - Test case 'Test odstranění autora' failed
+[15:44:49][MessageBuffer][INFO] Message buffer cleared
+[15:44:49][MessageBuffer][INFO] Message buffer cleared
+[15:44:49][NATTContext][INFO] Data has been stored in to the variable 'request'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:createAuthorRequest>
+         <lib:author>
+            <lib:id>0</lib:id>
+            <lib:name>George</lib:name>
+            <lib:surname>Orwell</lib:surname>
+         </lib:author>
+      </lib:createAuthorRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:44:49][SOAPTester][INFO] (soap-tester) Sending a request on URL: http://localhost:8080/ws
+[15:44:49][SOAPTester][WARNING] (soap-tester) Failed to send request: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+[15:44:49][NATTContext][INFO] Data has been stored in to the variable 'id-author'. Data value: 
+[15:44:49][TestSuiteKw][INFO] Test case 'Test vytvoření knihy' starts executing now
+[15:44:49][NATTContext][INFO] Data has been stored in to the variable 'request'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:createBookRequest>
+         <lib:book>
+            <lib:id>0</lib:id>
+            <lib:title>Animal Farm</lib:title>
+            <lib:authorID></lib:authorID>
+         </lib:book>
+      </lib:createBookRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:44:49][SOAPTester][INFO] (soap-tester) Sending a request on URL: http://localhost:8080/ws
+[15:44:49][SOAPTester][WARNING] (soap-tester) Failed to send request: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+[15:44:49][NATTContext][INFO] Data has been stored in to the variable 'id-book'. Data value: 
+[15:44:49][NATTContext][INFO] Data has been stored in to the variable 'request'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:getBookRequest>
+         <lib:bookId></lib:bookId>
+      </lib:getBookRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:44:49][SOAPTester][INFO] (soap-tester) Sending a request on URL: http://localhost:8080/ws
+[15:44:49][SOAPTester][WARNING] (soap-tester) Failed to send request: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+[15:44:49][AssertJsonKw][WARNING] Assertion failed. Variable 'soap-tester-last-msg' not found!
+[15:44:49][TestSuiteKw][ERROR] Test suite 'Testování správy knih' - Test case 'Test vytvoření knihy' failed
+[15:44:50][MessageBuffer][INFO] Message buffer cleared
+[15:44:50][TestSuiteKw][INFO] Test case 'Test vytvoření knihy s neplatným údajem' starts executing now
+[15:44:50][NATTContext][INFO] Data has been stored in to the variable 'request'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:createBookRequest>
+         <lib:book>
+            <lib:id>0</lib:id>
+            <lib:title></lib:title>
+            <lib:authorID></lib:authorID>
+         </lib:book>
+      </lib:createBookRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:44:50][SOAPTester][INFO] (soap-tester) Sending a request on URL: http://localhost:8080/ws
+[15:44:50][SOAPTester][WARNING] (soap-tester) Failed to send request: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+[15:44:50][AssertEqualsKw][WARNING] Assertion failed. Variable 'soap-tester-last-msg' not found!
+[15:44:50][TestSuiteKw][ERROR] Test suite 'Testování správy knih' - Test case 'Test vytvoření knihy s neplatným údajem' failed
+[15:44:50][MessageBuffer][INFO] Message buffer cleared
+[15:44:51][TestSuiteKw][INFO] Test case 'Test změny dat knihy' starts executing now
+[15:44:51][NATTContext][INFO] Data has been stored in to the variable 'request'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:createBookRequest>
+         <lib:book>
+            <lib:id>0</lib:id>
+            <lib:title>1984</lib:title>
+            <lib:authorID></lib:authorID>
+         </lib:book>
+      </lib:createBookRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:44:51][SOAPTester][INFO] (soap-tester) Sending a request on URL: http://localhost:8080/ws
+[15:44:51][SOAPTester][WARNING] (soap-tester) Failed to send request: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+[15:44:51][NATTContext][INFO] Data has been stored in to the variable 'id-book'. Data value: 
+[15:44:51][NATTContext][INFO] Data has been stored in to the variable 'request'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:updateBookRequest>
+         <lib:bookId></lib:bookId>
+         <lib:book>
+            <lib:id></lib:id>
+            <lib:title>The Road to Wigan Pier</lib:title>
+            <lib:authorID></lib:authorID>
+         </lib:book>
+      </lib:updateBookRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:44:51][SOAPTester][INFO] (soap-tester) Sending a request on URL: http://localhost:8080/ws
+[15:44:51][SOAPTester][WARNING] (soap-tester) Failed to send request: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+[15:44:51][NATTContext][INFO] Data has been stored in to the variable 'request'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:getBookRequest>
+         <lib:bookId></lib:bookId>
+      </lib:getBookRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:44:51][SOAPTester][INFO] (soap-tester) Sending a request on URL: http://localhost:8080/ws
+[15:44:51][SOAPTester][WARNING] (soap-tester) Failed to send request: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+[15:44:51][AssertJsonKw][WARNING] Assertion failed. Variable 'soap-tester-last-msg' not found!
+[15:44:51][TestSuiteKw][ERROR] Test suite 'Testování správy knih' - Test case 'Test změny dat knihy' failed
+[15:44:51][MessageBuffer][INFO] Message buffer cleared
+[15:44:52][TestSuiteKw][INFO] Test case 'Test odstranění knihy' starts executing now
+[15:44:52][NATTContext][INFO] Data has been stored in to the variable 'request'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:createBookRequest>
+         <lib:book>
+            <lib:id>0</lib:id>
+            <lib:title>Down and Out in Paris and London</lib:title>
+            <lib:authorID></lib:authorID>
+         </lib:book>
+      </lib:createBookRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:44:52][SOAPTester][INFO] (soap-tester) Sending a request on URL: http://localhost:8080/ws
+[15:44:52][SOAPTester][WARNING] (soap-tester) Failed to send request: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+[15:44:52][NATTContext][INFO] Data has been stored in to the variable 'id-book'. Data value: 
+[15:44:52][NATTContext][INFO] Data has been stored in to the variable 'request'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:getBookRequest>
+         <lib:bookId></lib:bookId>
+      </lib:getBookRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:44:52][SOAPTester][INFO] (soap-tester) Sending a request on URL: http://localhost:8080/ws
+[15:44:52][SOAPTester][WARNING] (soap-tester) Failed to send request: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+[15:44:52][AssertJsonKw][WARNING] Assertion failed. Variable 'soap-tester-last-msg' not found!
+[15:44:52][NATTContext][INFO] Data has been stored in to the variable 'request'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:deleteBookRequest>
+         <lib:bookId></lib:bookId>
+      </lib:deleteBookRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:44:52][SOAPTester][INFO] (soap-tester) Sending a request on URL: http://localhost:8080/ws
+[15:44:52][SOAPTester][WARNING] (soap-tester) Failed to send request: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+[15:44:52][NATTContext][INFO] Data has been stored in to the variable 'request'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:getBookRequest>
+         <lib:bookId></lib:bookId>
+      </lib:getBookRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:44:52][SOAPTester][INFO] (soap-tester) Sending a request on URL: http://localhost:8080/ws
+[15:44:52][SOAPTester][WARNING] (soap-tester) Failed to send request: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+[15:44:52][AssertEqualsKw][WARNING] Assertion failed. Variable 'soap-tester-last-msg' not found!
+[15:44:52][TestSuiteKw][ERROR] Test suite 'Testování správy knih' - Test case 'Test odstranění knihy' failed
+[15:44:52][MessageBuffer][INFO] Message buffer cleared
+[15:44:52][MessageBuffer][INFO] Message buffer cleared
+[15:44:52][MessageBuffer][INFO] Message buffer cleared
+[15:44:52][SOAPTester][INFO] (soap-tester) SOAP tester [soap-tester] terminated
+[15:44:52][NATTCore][INFO] Test executing finished
+[15:44:52][NATTCore][INFO] Start generating test report
+[15:44:52][TestReportGenerator][INFO] Report saved to file
+[15:44:52][NATTCore][WARNING] Failed test cases: "Test root initialization", "Test suite 'Testování správy knih' initialization", "Test vytvoření autora", "Test vytvoření autora s neplatnými údaji", "Test odstranění autora", "Test vytvoření knihy", "Test vytvoření knihy s neplatným údajem", "Test změny dat knihy", "Test odstranění knihy"
+[15:44:52][NATTCore][INFO] Final score: 0.000000
+[15:44:52][NATTCore][ERROR] Testing done. Leaving status: FAILED

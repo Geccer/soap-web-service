@@ -1,0 +1,470 @@
+[15:52:58][PluginLoader][INFO] No plugins found.
+[15:52:58][NATTCore][INFO] NATT CORE initialization done
+Version: 1.7.0 
+Configuration path: https://gitlab.com/ap5vs/test-config/soap-web-service-config/-/raw/main/test-config-7.yaml?ref_type=heads
+Configuration loading mode: FROM URL
+[15:52:58][NATTCore][INFO] Working directory path: C:\Users\tomas\Desktop\AP5VS\soap-web-service-main
+[15:52:58][NATTCore][INFO] Start loading of the configuration file ...
+[15:52:59][NetworkIO][INFO] Yaml data has been loaded from network location (https://gitlab.com/ap5vs/test-config/soap-web-service-config/-/raw/main/test-config-7.yaml?ref_type=heads)
+[15:52:59][NATTCore][INFO] Configuration loading done
+[15:52:59][NATTCore][INFO] Start building test structure according to the configuration ...
+[15:52:59][NATTCore][INFO] Test structure ...
+[15:52:59][NATTCore][INFO] Test structure building done
+[15:52:59][NATTCore][INFO] Start test executing ...
+[15:52:59][TestReportGenerator][INFO] Extenet reports generated. Final report will be saved to file: test_report.html
+[15:52:59][NATTCore][INFO] Starts execution on the root keyword  ...
+[15:52:59][MessageBuffer][INFO] Message buffer created for module with name: default
+[15:52:59][ExternalProgramRunner][INFO] (default) Run external app with command: java -jar build/libs/book-web-service-0.1.0.jar
+[15:52:59][ProcessManager][INFO] New PID (23692) added to file
+[15:52:59][WaitUntilKw][INFO] Waiting for action. Actions count: 1, Time out: 40000 ms
+[15:52:59][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: ''
+[15:52:59][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '  .   ____          _            __ _ _'
+[15:52:59][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: ' /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \'
+[15:52:59][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \'
+[15:52:59][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: ' \\/  ___)| |_)| | | | | || (_| |  ) ) ) )'
+[15:52:59][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '  '  |____| .__|_| |_|_| |_\__, | / / / /'
+[15:52:59][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: ' =========|_|==============|___/=/_/_/_/'
+[15:52:59][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: ' :: Spring Boot ::                (v3.2.0)'
+[15:52:59][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: ''
+[15:53:00][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:53:00.115+01:00  INFO 23692 --- [book-web-service] [           main] u.f.s.SOAPBookServiceApplication         : Starting SOAPBookServiceApplication v0.0.1-SNAPSHOT using Java 17.0.12 with PID 23692 (C:\Users\tomas\Desktop\AP5VS\soap-web-service-main\build\libs\book-web-service-0.1.0.jar started by tomas in C:\Users\tomas\Desktop\AP5VS\soap-web-service-main)'
+[15:53:00][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:53:00.125+01:00  INFO 23692 --- [book-web-service] [           main] u.f.s.SOAPBookServiceApplication         : No active profile set, falling back to 1 default profile: "default"'
+[15:53:00][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:53:00.796+01:00  INFO 23692 --- [book-web-service] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode'
+[15:53:00][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:53:00.796+01:00  INFO 23692 --- [book-web-service] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.'
+[15:53:00][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:53:00.843+01:00  INFO 23692 --- [book-web-service] [           main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface utb.fai.soapservice.Repository.AuthorRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.'
+[15:53:00][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:53:00.843+01:00  INFO 23692 --- [book-web-service] [           main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface utb.fai.soapservice.Repository.BookRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.'
+[15:53:00][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:53:00.845+01:00  INFO 23692 --- [book-web-service] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42 ms. Found 0 JDBC repository interfaces.'
+[15:53:00][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:53:00.854+01:00  INFO 23692 --- [book-web-service] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode'
+[15:53:00][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:53:00.855+01:00  INFO 23692 --- [book-web-service] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.'
+[15:53:00][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:53:00.884+01:00  INFO 23692 --- [book-web-service] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 2 JPA repository interfaces.'
+[15:53:01][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:53:01.094+01:00  WARN 23692 --- [book-web-service] [           main] trationDelegate$BeanPostProcessorChecker : Bean 'webServiceConfig' of type [utb.fai.soapservice.WebServiceConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [annotationActionEndpointMapping]? Check the corresponding BeanPostProcessor declaration and its dependencies.'
+[15:53:01][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:53:01.094+01:00  WARN 23692 --- [book-web-service] [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [annotationActionEndpointMapping] is declared through a non-static factory method on that class; consider declaring it as static instead.'
+[15:53:01][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:53:01.130+01:00  INFO 23692 --- [book-web-service] [           main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]'
+[15:53:01][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:53:01.445+01:00  INFO 23692 --- [book-web-service] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)'
+[15:53:01][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:53:01.449+01:00  INFO 23692 --- [book-web-service] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]'
+[15:53:01][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:53:01.449+01:00  INFO 23692 --- [book-web-service] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]'
+[15:53:01][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:53:01.498+01:00  INFO 23692 --- [book-web-service] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext'
+[15:53:01][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:53:01.498+01:00  INFO 23692 --- [book-web-service] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1280 ms'
+[15:53:01][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:53:01.638+01:00  INFO 23692 --- [book-web-service] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]'
+[15:53:01][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:53:01.714+01:00  INFO 23692 --- [book-web-service] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.3.1.Final'
+[15:53:01][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:53:01.746+01:00  INFO 23692 --- [book-web-service] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled'
+[15:53:01][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:53:01.937+01:00  INFO 23692 --- [book-web-service] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer'
+[15:53:01][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:53:01.964+01:00  INFO 23692 --- [book-web-service] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...'
+[15:53:02][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:53:02.546+01:00  INFO 23692 --- [book-web-service] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@205159dc'
+[15:53:02][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:53:02.546+01:00  INFO 23692 --- [book-web-service] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.'
+[15:53:02][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:53:02.646+01:00  WARN 23692 --- [book-web-service] [           main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)'
+[15:53:02][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:53:02.646+01:00  WARN 23692 --- [book-web-service] [           main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead'
+[15:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:53:03.199+01:00  INFO 23692 --- [book-web-service] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)'
+[15:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: create table author_persistent (id bigint not null auto_increment, name varchar(255), surname varchar(255), primary key (id)) engine=InnoDB'
+[15:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: create table book_persistent (id bigint not null auto_increment, title varchar(255), author_id bigint, primary key (id)) engine=InnoDB'
+[15:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: alter table book_persistent add constraint FKt6l8qtts1li8bxbuf4mpl5nts foreign key (author_id) references author_persistent (id)'
+[15:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:53:03.791+01:00  INFO 23692 --- [book-web-service] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default''
+[15:53:04][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:53:04.136+01:00  WARN 23692 --- [book-web-service] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning'
+[15:53:04][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:53:04.477+01:00  INFO 23692 --- [book-web-service] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '''
+[15:53:04][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:53:04.502+01:00  INFO 23692 --- [book-web-service] [           main] u.f.s.SOAPBookServiceApplication         : Started SOAPBookServiceApplication in 4.793 seconds (process running for 5.184)'
+[15:53:04][WaitUntilKw][INFO] Action triggered from module 'default'
+[15:53:04][NATTContext][INFO] Data has been stored in to the variable 'default-action-msg'. Data value: 2025-12-05T15:53:04.502+01:00  INFO 23692 --- [book-web-service] [           main] u.f.s.SOAPBookServiceApplication         : Started SOAPBookServiceApplication in 4.793 seconds (process running for 5.184)
+[15:53:04][WaitUntilKw][INFO] Action was invoked. Elapsed time: 5196 ms
+[15:53:04][MessageBuffer][INFO] Message buffer created for module with name: soap-tester
+[15:53:04][LocalHostIO][INFO] Text has been loaded from file (request/request_get_author.xml)
+[15:53:04][NATTContext][INFO] Data has been stored in to the variable 'tmp-get-author'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:getAuthorRequest>
+         <lib:authorId>TMP_ID</lib:authorId>
+      </lib:getAuthorRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:53:04][LocalHostIO][INFO] Text has been loaded from file (request/request_create_author.xml)
+[15:53:04][NATTContext][INFO] Data has been stored in to the variable 'tmp-create-author'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:createAuthorRequest>
+         <lib:author>
+            <lib:id>TMP_ID</lib:id>
+            <lib:name>TMP_NAME</lib:name>
+            <lib:surname>TMP_SURNAME</lib:surname>
+         </lib:author>
+      </lib:createAuthorRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:53:04][LocalHostIO][INFO] Text has been loaded from file (request/request_delete_author.xml)
+[15:53:04][NATTContext][INFO] Data has been stored in to the variable 'tmp-delete-author'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:deleteAuthorRequest>
+         <lib:authorId>TMP_ID</lib:authorId>
+      </lib:deleteAuthorRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:53:04][LocalHostIO][INFO] Text has been loaded from file (request/request_get_book.xml)
+[15:53:04][NATTContext][INFO] Data has been stored in to the variable 'tmp-get-book'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:getBookRequest>
+         <lib:bookId>TMP_ID</lib:bookId>
+      </lib:getBookRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:53:04][LocalHostIO][INFO] Text has been loaded from file (request/request_create_book.xml)
+[15:53:04][NATTContext][INFO] Data has been stored in to the variable 'tmp-create-book'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:createBookRequest>
+         <lib:book>
+            <lib:id>TMP_ID</lib:id>
+            <lib:title>TMP_TITLE</lib:title>
+            <lib:authorID>TMP_AUTHOR_ID</lib:authorID>
+         </lib:book>
+      </lib:createBookRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:53:04][LocalHostIO][INFO] Text has been loaded from file (request/request_update_book.xml)
+[15:53:04][NATTContext][INFO] Data has been stored in to the variable 'tmp-update-book'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:updateBookRequest>
+         <lib:bookId>TMP_ID</lib:bookId>
+         <lib:book>
+            <lib:id>TMP_ID</lib:id>
+            <lib:title>TMP_TITLE</lib:title>
+            <lib:authorID>TMP_AUTHOR_ID</lib:authorID>
+         </lib:book>
+      </lib:updateBookRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:53:04][LocalHostIO][INFO] Text has been loaded from file (request/request_delete_book.xml)
+[15:53:04][NATTContext][INFO] Data has been stored in to the variable 'tmp-delete-book'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:deleteBookRequest>
+         <lib:bookId>TMP_ID</lib:bookId>
+      </lib:deleteBookRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:53:04][TestSuiteKw][INFO] Test case 'Test vytvoření autora' starts executing now
+[15:53:04][NATTContext][INFO] Data has been stored in to the variable 'request'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:createAuthorRequest>
+         <lib:author>
+            <lib:id>0</lib:id>
+            <lib:name>George</lib:name>
+            <lib:surname>Orwell</lib:surname>
+         </lib:author>
+      </lib:createAuthorRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:53:04][SOAPTester][INFO] (soap-tester) Sending a request on URL: http://localhost:8080/ws
+[15:53:04][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:53:04.678+01:00  INFO 23692 --- [book-web-service] [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring MessageDispatcherServlet 'messageDispatcherServlet''
+[15:53:04][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:53:04.678+01:00  INFO 23692 --- [book-web-service] [nio-8080-exec-1] o.s.w.t.http.MessageDispatcherServlet    : Initializing Servlet 'messageDispatcherServlet''
+[15:53:04][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:53:04.682+01:00  INFO 23692 --- [book-web-service] [nio-8080-exec-1] o.s.ws.soap.saaj.SaajSoapMessageFactory  : Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol'
+[15:53:04][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-12-05T15:53:04.693+01:00  INFO 23692 --- [book-web-service] [nio-8080-exec-1] o.s.w.t.http.MessageDispatcherServlet    : Completed initialization in 15 ms'
+[15:53:04][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: insert into author_persistent (name,surname) values (?,?)'
+[15:53:05][MessageBuffer][INFO] Message added to buffer [ Mod: soap-tester | Tag:  ] Content: '{"createAuthorResponse":{"author":{"id":"1","name":"George","surname":"Orwell"}}}'
+[15:53:05][NATTContext][INFO] Data has been stored in to the variable 'id'. Data value: 1
+[15:53:05][NATTContext][INFO] Data has been stored in to the variable 'request'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:getAuthorRequest>
+         <lib:authorId>1</lib:authorId>
+      </lib:getAuthorRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:53:05][SOAPTester][INFO] (soap-tester) Sending a request on URL: http://localhost:8080/ws
+[15:53:05][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: select ap1_0.id,ap1_0.name,ap1_0.surname from author_persistent ap1_0 where ap1_0.id=?'
+[15:53:05][MessageBuffer][INFO] Message added to buffer [ Mod: soap-tester | Tag:  ] Content: '{"getAuthorResponse":{"author":{"id":"1","name":"George","surname":"Orwell"}}}'
+[15:53:05][TestSuiteKw][INFO] Test suite 'Testování správy autorů' - Test case 'Test vytvoření autora' passed
+[15:53:05][MessageBuffer][INFO] Message buffer cleared
+[15:53:06][TestSuiteKw][INFO] Test case 'Test vytvoření autora s neplatnými údaji' starts executing now
+[15:53:06][NATTContext][INFO] Data has been stored in to the variable 'request'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:createAuthorRequest>
+         <lib:author>
+            <lib:id>0</lib:id>
+            <lib:name>Invalid name</lib:name>
+            <lib:surname>Surname</lib:surname>
+         </lib:author>
+      </lib:createAuthorRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:53:06][SOAPTester][INFO] (soap-tester) Sending a request on URL: http://localhost:8080/ws
+[15:53:06][SOAPTester][WARNING] (soap-tester) HTTP request returned an error status: 500
+[15:53:06][MessageBuffer][INFO] Message added to buffer [ Mod: soap-tester | Tag:  ] Content: 'ERROR: 500'
+[15:53:06][TestSuiteKw][INFO] Test suite 'Testování správy autorů' - Test case 'Test vytvoření autora s neplatnými údaji' passed
+[15:53:06][MessageBuffer][INFO] Message buffer cleared
+[15:53:06][TestSuiteKw][INFO] Test case 'Test odstranění autora' starts executing now
+[15:53:06][NATTContext][INFO] Data has been stored in to the variable 'request'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:createAuthorRequest>
+         <lib:author>
+            <lib:id>0</lib:id>
+            <lib:name>Ernest</lib:name>
+            <lib:surname>Hemingway</lib:surname>
+         </lib:author>
+      </lib:createAuthorRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:53:06][SOAPTester][INFO] (soap-tester) Sending a request on URL: http://localhost:8080/ws
+[15:53:06][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: insert into author_persistent (name,surname) values (?,?)'
+[15:53:06][MessageBuffer][INFO] Message added to buffer [ Mod: soap-tester | Tag:  ] Content: '{"createAuthorResponse":{"author":{"id":"2","name":"Ernest","surname":"Hemingway"}}}'
+[15:53:06][NATTContext][INFO] Data has been stored in to the variable 'id'. Data value: 2
+[15:53:06][NATTContext][INFO] Data has been stored in to the variable 'request'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:deleteAuthorRequest>
+         <lib:authorId>2</lib:authorId>
+      </lib:deleteAuthorRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:53:06][SOAPTester][INFO] (soap-tester) Sending a request on URL: http://localhost:8080/ws
+[15:53:06][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: select ap1_0.id,ap1_0.name,ap1_0.surname from author_persistent ap1_0 where ap1_0.id=?'
+[15:53:06][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: delete from author_persistent where id=?'
+[15:53:07][MessageBuffer][INFO] Message added to buffer [ Mod: soap-tester | Tag:  ] Content: '{"deleteAuthorResponse":{"message":"Author deleted"}}'
+[15:53:07][NATTContext][INFO] Data has been stored in to the variable 'request'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:getAuthorRequest>
+         <lib:authorId>2</lib:authorId>
+      </lib:getAuthorRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:53:07][SOAPTester][INFO] (soap-tester) Sending a request on URL: http://localhost:8080/ws
+[15:53:07][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: select ap1_0.id,ap1_0.name,ap1_0.surname from author_persistent ap1_0 where ap1_0.id=?'
+[15:53:07][SOAPTester][WARNING] (soap-tester) HTTP request returned an error status: 500
+[15:53:07][MessageBuffer][INFO] Message added to buffer [ Mod: soap-tester | Tag:  ] Content: 'ERROR: 500'
+[15:53:07][TestSuiteKw][INFO] Test suite 'Testování správy autorů' - Test case 'Test odstranění autora' passed
+[15:53:07][MessageBuffer][INFO] Message buffer cleared
+[15:53:08][MessageBuffer][INFO] Message buffer cleared
+[15:53:08][NATTContext][INFO] Data has been stored in to the variable 'request'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:createAuthorRequest>
+         <lib:author>
+            <lib:id>0</lib:id>
+            <lib:name>George</lib:name>
+            <lib:surname>Orwell</lib:surname>
+         </lib:author>
+      </lib:createAuthorRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:53:08][SOAPTester][INFO] (soap-tester) Sending a request on URL: http://localhost:8080/ws
+[15:53:08][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: insert into author_persistent (name,surname) values (?,?)'
+[15:53:08][MessageBuffer][INFO] Message added to buffer [ Mod: soap-tester | Tag:  ] Content: '{"createAuthorResponse":{"author":{"id":"3","name":"George","surname":"Orwell"}}}'
+[15:53:08][NATTContext][INFO] Data has been stored in to the variable 'id-author'. Data value: 3
+[15:53:08][TestSuiteKw][INFO] Test case 'Test vytvoření knihy' starts executing now
+[15:53:08][NATTContext][INFO] Data has been stored in to the variable 'request'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:createBookRequest>
+         <lib:book>
+            <lib:id>0</lib:id>
+            <lib:title>Animal Farm</lib:title>
+            <lib:authorID>3</lib:authorID>
+         </lib:book>
+      </lib:createBookRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:53:08][SOAPTester][INFO] (soap-tester) Sending a request on URL: http://localhost:8080/ws
+[15:53:08][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: select ap1_0.id,ap1_0.name,ap1_0.surname from author_persistent ap1_0 where ap1_0.id=?'
+[15:53:08][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: insert into book_persistent (author_id,title) values (?,?)'
+[15:53:08][MessageBuffer][INFO] Message added to buffer [ Mod: soap-tester | Tag:  ] Content: '{"createBookResponse":{"book":{"id":"1","title":"Animal Farm","authorID":"3"}}}'
+[15:53:08][NATTContext][INFO] Data has been stored in to the variable 'id-book'. Data value: 1
+[15:53:08][NATTContext][INFO] Data has been stored in to the variable 'request'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:getBookRequest>
+         <lib:bookId>1</lib:bookId>
+      </lib:getBookRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:53:08][SOAPTester][INFO] (soap-tester) Sending a request on URL: http://localhost:8080/ws
+[15:53:08][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: select bp1_0.id,a1_0.id,a1_0.name,a1_0.surname,bp1_0.title from book_persistent bp1_0 left join author_persistent a1_0 on a1_0.id=bp1_0.author_id where bp1_0.id=?'
+[15:53:08][MessageBuffer][INFO] Message added to buffer [ Mod: soap-tester | Tag:  ] Content: '{"getBookResponse":{"book":{"id":"1","title":"Animal Farm","authorID":"3"}}}'
+[15:53:08][TestSuiteKw][INFO] Test suite 'Testování správy knih' - Test case 'Test vytvoření knihy' passed
+[15:53:08][MessageBuffer][INFO] Message buffer cleared
+[15:53:09][TestSuiteKw][INFO] Test case 'Test vytvoření knihy s neplatným údajem' starts executing now
+[15:53:09][NATTContext][INFO] Data has been stored in to the variable 'request'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:createBookRequest>
+         <lib:book>
+            <lib:id>0</lib:id>
+            <lib:title></lib:title>
+            <lib:authorID>3</lib:authorID>
+         </lib:book>
+      </lib:createBookRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:53:09][SOAPTester][INFO] (soap-tester) Sending a request on URL: http://localhost:8080/ws
+[15:53:09][SOAPTester][WARNING] (soap-tester) HTTP request returned an error status: 500
+[15:53:09][MessageBuffer][INFO] Message added to buffer [ Mod: soap-tester | Tag:  ] Content: 'ERROR: 500'
+[15:53:09][TestSuiteKw][INFO] Test suite 'Testování správy knih' - Test case 'Test vytvoření knihy s neplatným údajem' passed
+[15:53:09][MessageBuffer][INFO] Message buffer cleared
+[15:53:09][TestSuiteKw][INFO] Test case 'Test změny dat knihy' starts executing now
+[15:53:09][NATTContext][INFO] Data has been stored in to the variable 'request'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:createBookRequest>
+         <lib:book>
+            <lib:id>0</lib:id>
+            <lib:title>1984</lib:title>
+            <lib:authorID>3</lib:authorID>
+         </lib:book>
+      </lib:createBookRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:53:09][SOAPTester][INFO] (soap-tester) Sending a request on URL: http://localhost:8080/ws
+[15:53:10][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: select ap1_0.id,ap1_0.name,ap1_0.surname from author_persistent ap1_0 where ap1_0.id=?'
+[15:53:10][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: insert into book_persistent (author_id,title) values (?,?)'
+[15:53:10][MessageBuffer][INFO] Message added to buffer [ Mod: soap-tester | Tag:  ] Content: '{"createBookResponse":{"book":{"id":"2","title":"1984","authorID":"3"}}}'
+[15:53:10][NATTContext][INFO] Data has been stored in to the variable 'id-book'. Data value: 2
+[15:53:10][NATTContext][INFO] Data has been stored in to the variable 'request'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:updateBookRequest>
+         <lib:bookId>2</lib:bookId>
+         <lib:book>
+            <lib:id>2</lib:id>
+            <lib:title>The Road to Wigan Pier</lib:title>
+            <lib:authorID>3</lib:authorID>
+         </lib:book>
+      </lib:updateBookRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:53:10][SOAPTester][INFO] (soap-tester) Sending a request on URL: http://localhost:8080/ws
+[15:53:10][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: select ap1_0.id,ap1_0.name,ap1_0.surname from author_persistent ap1_0 where ap1_0.id=?'
+[15:53:10][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: select bp1_0.id,a1_0.id,a1_0.name,a1_0.surname,bp1_0.title from book_persistent bp1_0 left join author_persistent a1_0 on a1_0.id=bp1_0.author_id where bp1_0.id=?'
+[15:53:10][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: select bp1_0.id,a1_0.id,a1_0.name,a1_0.surname,bp1_0.title from book_persistent bp1_0 left join author_persistent a1_0 on a1_0.id=bp1_0.author_id where bp1_0.id=?'
+[15:53:10][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: update book_persistent set author_id=?,title=? where id=?'
+[15:53:10][MessageBuffer][INFO] Message added to buffer [ Mod: soap-tester | Tag:  ] Content: '{"updateBookResponse":{"book":{"id":"2","title":"The Road to Wigan Pier","authorID":"3"}}}'
+[15:53:10][NATTContext][INFO] Data has been stored in to the variable 'request'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:getBookRequest>
+         <lib:bookId>2</lib:bookId>
+      </lib:getBookRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:53:10][SOAPTester][INFO] (soap-tester) Sending a request on URL: http://localhost:8080/ws
+[15:53:10][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: select bp1_0.id,a1_0.id,a1_0.name,a1_0.surname,bp1_0.title from book_persistent bp1_0 left join author_persistent a1_0 on a1_0.id=bp1_0.author_id where bp1_0.id=?'
+[15:53:10][MessageBuffer][INFO] Message added to buffer [ Mod: soap-tester | Tag:  ] Content: '{"getBookResponse":{"book":{"id":"2","title":"The Road to Wigan Pier","authorID":"3"}}}'
+[15:53:10][TestSuiteKw][INFO] Test suite 'Testování správy knih' - Test case 'Test změny dat knihy' passed
+[15:53:11][MessageBuffer][INFO] Message buffer cleared
+[15:53:11][TestSuiteKw][INFO] Test case 'Test odstranění knihy' starts executing now
+[15:53:11][NATTContext][INFO] Data has been stored in to the variable 'request'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:createBookRequest>
+         <lib:book>
+            <lib:id>0</lib:id>
+            <lib:title>Down and Out in Paris and London</lib:title>
+            <lib:authorID>3</lib:authorID>
+         </lib:book>
+      </lib:createBookRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:53:11][SOAPTester][INFO] (soap-tester) Sending a request on URL: http://localhost:8080/ws
+[15:53:11][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: select ap1_0.id,ap1_0.name,ap1_0.surname from author_persistent ap1_0 where ap1_0.id=?'
+[15:53:11][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: insert into book_persistent (author_id,title) values (?,?)'
+[15:53:11][MessageBuffer][INFO] Message added to buffer [ Mod: soap-tester | Tag:  ] Content: '{"createBookResponse":{"book":{"id":"3","title":"Down and Out in Paris and London","authorID":"3"}}}'
+[15:53:11][NATTContext][INFO] Data has been stored in to the variable 'id-book'. Data value: 3
+[15:53:11][NATTContext][INFO] Data has been stored in to the variable 'request'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:getBookRequest>
+         <lib:bookId>3</lib:bookId>
+      </lib:getBookRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:53:11][SOAPTester][INFO] (soap-tester) Sending a request on URL: http://localhost:8080/ws
+[15:53:11][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: select bp1_0.id,a1_0.id,a1_0.name,a1_0.surname,bp1_0.title from book_persistent bp1_0 left join author_persistent a1_0 on a1_0.id=bp1_0.author_id where bp1_0.id=?'
+[15:53:12][MessageBuffer][INFO] Message added to buffer [ Mod: soap-tester | Tag:  ] Content: '{"getBookResponse":{"book":{"id":"3","title":"Down and Out in Paris and London","authorID":"3"}}}'
+[15:53:12][NATTContext][INFO] Data has been stored in to the variable 'request'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:deleteBookRequest>
+         <lib:bookId>3</lib:bookId>
+      </lib:deleteBookRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:53:12][SOAPTester][INFO] (soap-tester) Sending a request on URL: http://localhost:8080/ws
+[15:53:12][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: select bp1_0.id,a1_0.id,a1_0.name,a1_0.surname,bp1_0.title from book_persistent bp1_0 left join author_persistent a1_0 on a1_0.id=bp1_0.author_id where bp1_0.id=?'
+[15:53:12][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: delete from book_persistent where id=?'
+[15:53:12][MessageBuffer][INFO] Message added to buffer [ Mod: soap-tester | Tag:  ] Content: '{"deleteBookResponse":{"message":"Book deleted"}}'
+[15:53:12][NATTContext][INFO] Data has been stored in to the variable 'request'. Data value: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service">
+   <soapenv:Header />
+   <soapenv:Body>
+      <lib:getBookRequest>
+         <lib:bookId>3</lib:bookId>
+      </lib:getBookRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+[15:53:12][SOAPTester][INFO] (soap-tester) Sending a request on URL: http://localhost:8080/ws
+[15:53:12][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: select bp1_0.id,a1_0.id,a1_0.name,a1_0.surname,bp1_0.title from book_persistent bp1_0 left join author_persistent a1_0 on a1_0.id=bp1_0.author_id where bp1_0.id=?'
+[15:53:12][SOAPTester][WARNING] (soap-tester) HTTP request returned an error status: 500
+[15:53:12][MessageBuffer][INFO] Message added to buffer [ Mod: soap-tester | Tag:  ] Content: 'ERROR: 500'
+[15:53:12][TestSuiteKw][INFO] Test suite 'Testování správy knih' - Test case 'Test odstranění knihy' passed
+[15:53:12][MessageBuffer][INFO] Message buffer cleared
+[15:53:13][MessageBuffer][INFO] Message buffer cleared
+[15:53:13][MessageBuffer][INFO] Message buffer cleared
+[15:53:13][ExternalProgramRunner][INFO] (default) Termiting external application
+[15:53:13][ProcessManager][INFO] PID (23692) removed from file
+[15:53:13][SOAPTester][INFO] (soap-tester) SOAP tester [soap-tester] terminated
+[15:53:13][ProcessManager][INFO] PID (23692) removed from file
+[15:53:13][NATTCore][INFO] Test executing finished
+[15:53:13][NATTCore][INFO] Start generating test report
+[15:53:13][ExternalProgramRunner][WARNING] (default) External application ends with error: 1
+[15:53:13][TestReportGenerator][INFO] Report saved to file
+[15:53:13][NATTCore][INFO] All test cases passed.
+[15:53:13][NATTCore][INFO] Final score: 11.000000
+[15:53:13][NATTCore][INFO] Testing done. Leaving status: PASSED

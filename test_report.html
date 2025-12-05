@@ -1,0 +1,1393 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Network App Testing Tool</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c43b89d03a7c43dae8bb8f0f078bad1997af6b3b/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Test report</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Dec 5, 2025 03:52:59 PM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">Testovánísprávyautorů</a><a class="dropdown-item" href="#">Testovánísprávyknih</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Test root initialization</p>
+            <p class="text-sm">
+              <span>15:52:59 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Test root initialization</h5>
+<span class='badge badge-success'>12.05.2025 15:52:59</span>
+<span class='badge badge-danger'>12.05.2025 15:52:59</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:52:59 PM</td>
+        <td>
+          <b>[Run App]</b> "java -jar build/libs/book-web-service-0.1.0.jar"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:52:59 PM</td>
+        <td>
+          <b>[Create Filter Action]</b> mode = "contains", case_sensitive = true, name = "default", text = "Started SOAPBookServiceApplication in"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:04 PM</td>
+        <td>
+          <b>[Wait Until]</b> module_name = "default", time_out = 40000<br><font color="green">Action was invoked. Elapsed time: <b>5196</b> ms</font>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:04 PM</td>
+        <td>
+          <b>[Create Soap Tester]</b> name = "soap-tester", url = "http://localhost:8080/ws"<br><font color="green">The module with name 'soap-tester' is running.</font>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:04 PM</td>
+        <td>
+          <b>[Read File]</b> file_path = "request/request_get_author.xml", var_name = "tmp-get-author"<br><font color="green">The following content of file has been stored in a variable named <b>[tmp-get-author]</b>: <b>'&lt;soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service"&gt;
+   &lt;soapenv:Header /&gt;
+   &lt;soapenv:Body&gt;
+      &lt;lib:getAuthorRequest&gt;
+         &lt;lib:authorId&gt;TMP_ID&lt;/lib:authorId&gt;
+      &lt;/lib:getAuthorRequest&gt;
+   &lt;/soapenv:Body&gt;
+&lt;/soapenv:Envelope&gt;
+'</b></font>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:04 PM</td>
+        <td>
+          <b>[Read File]</b> file_path = "request/request_create_author.xml", var_name = "tmp-create-author"<br><font color="green">The following content of file has been stored in a variable named <b>[tmp-create-author]</b>: <b>'&lt;soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service"&gt;
+   &lt;soapenv:Header /&gt;
+   &lt;soapenv:Body&gt;
+      &lt;lib:createAuthorRequest&gt;
+         &lt;lib:author&gt;
+            &lt;lib:id&gt;TMP_ID&lt;/lib:id&gt;
+            &lt;lib:name&gt;TMP_NAME&lt;/lib:name&gt;
+            &lt;lib:surname&gt;TMP_SURNAME&lt;/lib:surname&gt;
+         &lt;/lib:author&gt;
+      &lt;/lib:createAuthorRequest&gt;
+   &lt;/soapenv:Body&gt;
+&lt;/soapenv:Envelope&gt;
+'</b></font>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:04 PM</td>
+        <td>
+          <b>[Read File]</b> file_path = "request/request_delete_author.xml", var_name = "tmp-delete-author"<br><font color="green">The following content of file has been stored in a variable named <b>[tmp-delete-author]</b>: <b>'&lt;soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service"&gt;
+   &lt;soapenv:Header /&gt;
+   &lt;soapenv:Body&gt;
+      &lt;lib:deleteAuthorRequest&gt;
+         &lt;lib:authorId&gt;TMP_ID&lt;/lib:authorId&gt;
+      &lt;/lib:deleteAuthorRequest&gt;
+   &lt;/soapenv:Body&gt;
+&lt;/soapenv:Envelope&gt;
+'</b></font>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:04 PM</td>
+        <td>
+          <b>[Read File]</b> file_path = "request/request_get_book.xml", var_name = "tmp-get-book"<br><font color="green">The following content of file has been stored in a variable named <b>[tmp-get-book]</b>: <b>'&lt;soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service"&gt;
+   &lt;soapenv:Header /&gt;
+   &lt;soapenv:Body&gt;
+      &lt;lib:getBookRequest&gt;
+         &lt;lib:bookId&gt;TMP_ID&lt;/lib:bookId&gt;
+      &lt;/lib:getBookRequest&gt;
+   &lt;/soapenv:Body&gt;
+&lt;/soapenv:Envelope&gt;
+'</b></font>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:04 PM</td>
+        <td>
+          <b>[Read File]</b> file_path = "request/request_create_book.xml", var_name = "tmp-create-book"<br><font color="green">The following content of file has been stored in a variable named <b>[tmp-create-book]</b>: <b>'&lt;soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service"&gt;
+   &lt;soapenv:Header /&gt;
+   &lt;soapenv:Body&gt;
+      &lt;lib:createBookRequest&gt;
+         &lt;lib:book&gt;
+            &lt;lib:id&gt;TMP_ID&lt;/lib:id&gt;
+            &lt;lib:title&gt;TMP_TITLE&lt;/lib:title&gt;
+            &lt;lib:authorID&gt;TMP_AUTHOR_ID&lt;/lib:authorID&gt;
+         &lt;/lib:book&gt;
+      &lt;/lib:createBookRequest&gt;
+   &lt;/soapenv:Body&gt;
+&lt;/soapenv:Envelope&gt;
+'</b></font>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:04 PM</td>
+        <td>
+          <b>[Read File]</b> file_path = "request/request_update_book.xml", var_name = "tmp-update-book"<br><font color="green">The following content of file has been stored in a variable named <b>[tmp-update-book]</b>: <b>'&lt;soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service"&gt;
+   &lt;soapenv:Header /&gt;
+   &lt;soapenv:Body&gt;
+      &lt;lib:updateBookRequest&gt;
+         &lt;lib:bookId&gt;TMP_ID&lt;/lib:bookId&gt;
+         &lt;lib:book&gt;
+            &lt;lib:id&gt;TMP_ID&lt;/lib:id&gt;
+            &lt;lib:title&gt;TMP_TITLE&lt;/lib:title&gt;
+            &lt;lib:authorID&gt;TMP_AUTHOR_ID&lt;/lib:authorID&gt;
+         &lt;/lib:book&gt;
+      &lt;/lib:updateBookRequest&gt;
+   &lt;/soapenv:Body&gt;
+&lt;/soapenv:Envelope&gt;
+'</b></font>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:04 PM</td>
+        <td>
+          <b>[Read File]</b> file_path = "request/request_delete_book.xml", var_name = "tmp-delete-book"<br><font color="green">The following content of file has been stored in a variable named <b>[tmp-delete-book]</b>: <b>'&lt;soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service"&gt;
+   &lt;soapenv:Header /&gt;
+   &lt;soapenv:Body&gt;
+      &lt;lib:deleteBookRequest&gt;
+         &lt;lib:bookId&gt;TMP_ID&lt;/lib:bookId&gt;
+      &lt;/lib:deleteBookRequest&gt;
+   &lt;/soapenv:Body&gt;
+&lt;/soapenv:Envelope&gt;
+'</b></font>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="2"
+          author=""
+          tag="Testovánísprávyknih"
+          device="">
+          <div class="test-detail">
+            <p class="name">Test suite 'Testování správy knih' initialization</p>
+            <p class="text-sm">
+              <span>15:52:59 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Test suite 'Testování správy knih' initialization</h5>
+<span class='badge badge-success'>12.05.2025 15:52:59</span>
+<span class='badge badge-danger'>12.05.2025 15:52:59</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Testovánísprávyknih</span></div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:08 PM</td>
+        <td>
+          <b>[Replace]</b> from_var = "tmp-create-author", to_var = "request"<br><font color="green">All strings <b>'[TMP_ID, TMP_NAME, TMP_SURNAME]'</b> in variable <b>'tmp-create-author'</b> were successfully replaced with strings <b>'[0, George, Orwell]'</b>. Final string stored it to the varialbe <b>'request'</b>.</font>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:08 PM</td>
+        <td>
+          <b>[Module Send]</b> name = "soap-tester", message = "$request"<br><font color="green">Message was successfully sent by module <b>'soap-tester'</b>. Message content: <b>&lt;soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service"&gt;
+   &lt;soapenv:Header /&gt;
+   &lt;soapenv:Body&gt;
+      &lt;lib:createAuthorRequest&gt;
+         &lt;lib:author&gt;
+            &lt;lib:id&gt;0&lt;/lib:id&gt;
+            &lt;lib:name&gt;George&lt;/lib:name&gt;
+            &lt;lib:surname&gt;Orwell&lt;/lib:surname&gt;
+         &lt;/lib:author&gt;
+      &lt;/lib:createAuthorRequest&gt;
+   &lt;/soapenv:Body&gt;
+&lt;/soapenv:Envelope&gt;
+</b></font>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:08 PM</td>
+        <td>
+          <b>[Json Get]</b> from_var = "soap-tester-last-msg", to_var = "id-author", param_name = "createAuthorResponse:author:id"<br><font color="green">The following json content has been stored in a variable named <b>[id-author]</b>: <b>'3'</b></font>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="3"
+          author=""
+          tag="Testovánísprávyautorů"
+          device="">
+          <div class="test-detail">
+            <p class="name">Test vytvoření autora</p>
+            <p class="text-sm">
+              <span>15:52:59 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Test vytvoření autora</h5>
+<span class='badge badge-success'>12.05.2025 15:52:59</span>
+<span class='badge badge-danger'>12.05.2025 15:52:59</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Testovánísprávyautorů</span></div>
+<div class="m-t-10 m-l-5">V tomto testovacím připadě bude vytvořen jeden autor. Následně bude ověřeno, zda bylo jeho vytvoření úspěšné.</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:04 PM</td>
+        <td>
+          <b>[Replace]</b> from_var = "tmp-create-author", to_var = "request"<br><font color="green">All strings <b>'[TMP_ID, TMP_NAME, TMP_SURNAME]'</b> in variable <b>'tmp-create-author'</b> were successfully replaced with strings <b>'[0, George, Orwell]'</b>. Final string stored it to the varialbe <b>'request'</b>.</font>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:05 PM</td>
+        <td>
+          <b>[Module Send]</b> name = "soap-tester", message = "$request"<br><font color="green">Message was successfully sent by module <b>'soap-tester'</b>. Message content: <b>&lt;soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service"&gt;
+   &lt;soapenv:Header /&gt;
+   &lt;soapenv:Body&gt;
+      &lt;lib:createAuthorRequest&gt;
+         &lt;lib:author&gt;
+            &lt;lib:id&gt;0&lt;/lib:id&gt;
+            &lt;lib:name&gt;George&lt;/lib:name&gt;
+            &lt;lib:surname&gt;Orwell&lt;/lib:surname&gt;
+         &lt;/lib:author&gt;
+      &lt;/lib:createAuthorRequest&gt;
+   &lt;/soapenv:Body&gt;
+&lt;/soapenv:Envelope&gt;
+</b></font>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:05 PM</td>
+        <td>
+          <b>[Json Get]</b> from_var = "soap-tester-last-msg", to_var = "id", param_name = "createAuthorResponse:author:id"<br><font color="green">The following json content has been stored in a variable named <b>[id]</b>: <b>'1'</b></font>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:05 PM</td>
+        <td>
+          <b>[Replace]</b> from_var = "tmp-get-author", to_var = "request"<br><font color="green">All strings <b>'[TMP_ID]'</b> in variable <b>'tmp-get-author'</b> were successfully replaced with strings <b>'[$id]'</b>. Final string stored it to the varialbe <b>'request'</b>.</font>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:05 PM</td>
+        <td>
+          <b>[Module Send]</b> name = "soap-tester", message = "$request"<br><font color="green">Message was successfully sent by module <b>'soap-tester'</b>. Message content: <b>&lt;soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service"&gt;
+   &lt;soapenv:Header /&gt;
+   &lt;soapenv:Body&gt;
+      &lt;lib:getAuthorRequest&gt;
+         &lt;lib:authorId&gt;1&lt;/lib:authorId&gt;
+      &lt;/lib:getAuthorRequest&gt;
+   &lt;/soapenv:Body&gt;
+&lt;/soapenv:Envelope&gt;
+</b></font>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:05 PM</td>
+        <td>
+          <b>[Assert Json]</b> expected = "{"getAuthorResponse": {"author": {"id": "$id", "name": "George", "s..", exact_mode = false, var_name = "soap-tester-last-msg"<br><font color="green">Assertion succeeded. <b>True</b> was expected as the result. Condition: (Expected JSON <b>'{"getAuthorResponse": {"author": {"id": "1", "name": "George", "surname": "Orwell"}}}'</b> must be same as the JSON in the variable <b>'{"getAuthorResponse":{"author":{"id":"1","name":"George","surname":"Orwell"}}}'</b>)</font>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="4"
+          author=""
+          tag="Testovánísprávyautorů"
+          device="">
+          <div class="test-detail">
+            <p class="name">Test vytvoření autora s neplatnými údaji</p>
+            <p class="text-sm">
+              <span>15:52:59 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Test vytvoření autora s neplatnými údaji</h5>
+<span class='badge badge-success'>12.05.2025 15:52:59</span>
+<span class='badge badge-danger'>12.05.2025 15:52:59</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Testovánísprávyautorů</span></div>
+<div class="m-t-10 m-l-5">V tomto testovacím připadě bude vytvořen jeden autor, ale jeho jméno bude neplatné. Předpokládá se, že takový autor nebude vytvořen.</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:06 PM</td>
+        <td>
+          <b>[Replace]</b> from_var = "tmp-create-author", to_var = "request"<br><font color="green">All strings <b>'[TMP_ID, TMP_NAME, TMP_SURNAME]'</b> in variable <b>'tmp-create-author'</b> were successfully replaced with strings <b>'[0, Invalid name, Surname]'</b>. Final string stored it to the varialbe <b>'request'</b>.</font>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:06 PM</td>
+        <td>
+          <b>[Module Send]</b> name = "soap-tester", message = "$request"<br><font color="green">Message was successfully sent by module <b>'soap-tester'</b>. Message content: <b>&lt;soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service"&gt;
+   &lt;soapenv:Header /&gt;
+   &lt;soapenv:Body&gt;
+      &lt;lib:createAuthorRequest&gt;
+         &lt;lib:author&gt;
+            &lt;lib:id&gt;0&lt;/lib:id&gt;
+            &lt;lib:name&gt;Invalid name&lt;/lib:name&gt;
+            &lt;lib:surname&gt;Surname&lt;/lib:surname&gt;
+         &lt;/lib:author&gt;
+      &lt;/lib:createAuthorRequest&gt;
+   &lt;/soapenv:Body&gt;
+&lt;/soapenv:Envelope&gt;
+</b></font>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:06 PM</td>
+        <td>
+          <b>[Assert String]</b> mode = "contains", expected = "ERROR:", case_sensitive = false, var_name = "soap-tester-last-msg"<br><font color="green">Assertion succeeded. <b>True</b> was expected as the result. Condition: (Value of variable <b>'ERROR: 500'</b> must contains expected text <b>'ERROR:'</b>)</font>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="5"
+          author=""
+          tag="Testovánísprávyautorů"
+          device="">
+          <div class="test-detail">
+            <p class="name">Test odstranění autora</p>
+            <p class="text-sm">
+              <span>15:52:59 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Test odstranění autora</h5>
+<span class='badge badge-success'>12.05.2025 15:52:59</span>
+<span class='badge badge-danger'>12.05.2025 15:52:59</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Testovánísprávyautorů</span></div>
+<div class="m-t-10 m-l-5">V rámci tohoto testovacího případu bude testováno, zda je možné odstranit autora z databáze.</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:06 PM</td>
+        <td>
+          <b>[Replace]</b> from_var = "tmp-create-author", to_var = "request"<br><font color="green">All strings <b>'[TMP_ID, TMP_NAME, TMP_SURNAME]'</b> in variable <b>'tmp-create-author'</b> were successfully replaced with strings <b>'[0, Ernest, Hemingway]'</b>. Final string stored it to the varialbe <b>'request'</b>.</font>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:06 PM</td>
+        <td>
+          <b>[Module Send]</b> name = "soap-tester", message = "$request"<br><font color="green">Message was successfully sent by module <b>'soap-tester'</b>. Message content: <b>&lt;soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service"&gt;
+   &lt;soapenv:Header /&gt;
+   &lt;soapenv:Body&gt;
+      &lt;lib:createAuthorRequest&gt;
+         &lt;lib:author&gt;
+            &lt;lib:id&gt;0&lt;/lib:id&gt;
+            &lt;lib:name&gt;Ernest&lt;/lib:name&gt;
+            &lt;lib:surname&gt;Hemingway&lt;/lib:surname&gt;
+         &lt;/lib:author&gt;
+      &lt;/lib:createAuthorRequest&gt;
+   &lt;/soapenv:Body&gt;
+&lt;/soapenv:Envelope&gt;
+</b></font>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:06 PM</td>
+        <td>
+          <b>[Json Get]</b> from_var = "soap-tester-last-msg", to_var = "id", param_name = "createAuthorResponse:author:id"<br><font color="green">The following json content has been stored in a variable named <b>[id]</b>: <b>'2'</b></font>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:06 PM</td>
+        <td>
+          <b>[Replace]</b> from_var = "tmp-delete-author", to_var = "request"<br><font color="green">All strings <b>'[TMP_ID]'</b> in variable <b>'tmp-delete-author'</b> were successfully replaced with strings <b>'[$id]'</b>. Final string stored it to the varialbe <b>'request'</b>.</font>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:07 PM</td>
+        <td>
+          <b>[Module Send]</b> name = "soap-tester", message = "$request"<br><font color="green">Message was successfully sent by module <b>'soap-tester'</b>. Message content: <b>&lt;soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service"&gt;
+   &lt;soapenv:Header /&gt;
+   &lt;soapenv:Body&gt;
+      &lt;lib:deleteAuthorRequest&gt;
+         &lt;lib:authorId&gt;2&lt;/lib:authorId&gt;
+      &lt;/lib:deleteAuthorRequest&gt;
+   &lt;/soapenv:Body&gt;
+&lt;/soapenv:Envelope&gt;
+</b></font>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:07 PM</td>
+        <td>
+          <b>[Replace]</b> from_var = "tmp-get-author", to_var = "request"<br><font color="green">All strings <b>'[TMP_ID]'</b> in variable <b>'tmp-get-author'</b> were successfully replaced with strings <b>'[$id]'</b>. Final string stored it to the varialbe <b>'request'</b>.</font>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:07 PM</td>
+        <td>
+          <b>[Module Send]</b> name = "soap-tester", message = "$request"<br><font color="green">Message was successfully sent by module <b>'soap-tester'</b>. Message content: <b>&lt;soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service"&gt;
+   &lt;soapenv:Header /&gt;
+   &lt;soapenv:Body&gt;
+      &lt;lib:getAuthorRequest&gt;
+         &lt;lib:authorId&gt;2&lt;/lib:authorId&gt;
+      &lt;/lib:getAuthorRequest&gt;
+   &lt;/soapenv:Body&gt;
+&lt;/soapenv:Envelope&gt;
+</b></font>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:07 PM</td>
+        <td>
+          <b>[Assert String]</b> mode = "contains", expected = "ERROR:", case_sensitive = false, var_name = "soap-tester-last-msg"<br><font color="green">Assertion succeeded. <b>True</b> was expected as the result. Condition: (Value of variable <b>'ERROR: 500'</b> must contains expected text <b>'ERROR:'</b>)</font>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="6"
+          author=""
+          tag="Testovánísprávyknih"
+          device="">
+          <div class="test-detail">
+            <p class="name">Test vytvoření knihy</p>
+            <p class="text-sm">
+              <span>15:52:59 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Test vytvoření knihy</h5>
+<span class='badge badge-success'>12.05.2025 15:52:59</span>
+<span class='badge badge-danger'>12.05.2025 15:52:59</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Testovánísprávyknih</span></div>
+<div class="m-t-10 m-l-5">V tomto testovacím připadu bude vytvořena jedna kniha. Následně bude ověřeno, zda byla uspěšně vytvořena.</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:08 PM</td>
+        <td>
+          <b>[Replace]</b> from_var = "tmp-create-book", to_var = "request"<br><font color="green">All strings <b>'[TMP_ID, TMP_TITLE, TMP_AUTHOR_ID]'</b> in variable <b>'tmp-create-book'</b> were successfully replaced with strings <b>'[0, Animal Farm, $id-author]'</b>. Final string stored it to the varialbe <b>'request'</b>.</font>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:08 PM</td>
+        <td>
+          <b>[Module Send]</b> name = "soap-tester", message = "$request"<br><font color="green">Message was successfully sent by module <b>'soap-tester'</b>. Message content: <b>&lt;soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service"&gt;
+   &lt;soapenv:Header /&gt;
+   &lt;soapenv:Body&gt;
+      &lt;lib:createBookRequest&gt;
+         &lt;lib:book&gt;
+            &lt;lib:id&gt;0&lt;/lib:id&gt;
+            &lt;lib:title&gt;Animal Farm&lt;/lib:title&gt;
+            &lt;lib:authorID&gt;3&lt;/lib:authorID&gt;
+         &lt;/lib:book&gt;
+      &lt;/lib:createBookRequest&gt;
+   &lt;/soapenv:Body&gt;
+&lt;/soapenv:Envelope&gt;
+</b></font>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:08 PM</td>
+        <td>
+          <b>[Json Get]</b> from_var = "soap-tester-last-msg", to_var = "id-book", param_name = "createBookResponse:book:id"<br><font color="green">The following json content has been stored in a variable named <b>[id-book]</b>: <b>'1'</b></font>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:08 PM</td>
+        <td>
+          <b>[Replace]</b> from_var = "tmp-get-book", to_var = "request"<br><font color="green">All strings <b>'[TMP_ID]'</b> in variable <b>'tmp-get-book'</b> were successfully replaced with strings <b>'[$id-book]'</b>. Final string stored it to the varialbe <b>'request'</b>.</font>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:08 PM</td>
+        <td>
+          <b>[Module Send]</b> name = "soap-tester", message = "$request"<br><font color="green">Message was successfully sent by module <b>'soap-tester'</b>. Message content: <b>&lt;soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service"&gt;
+   &lt;soapenv:Header /&gt;
+   &lt;soapenv:Body&gt;
+      &lt;lib:getBookRequest&gt;
+         &lt;lib:bookId&gt;1&lt;/lib:bookId&gt;
+      &lt;/lib:getBookRequest&gt;
+   &lt;/soapenv:Body&gt;
+&lt;/soapenv:Envelope&gt;
+</b></font>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:08 PM</td>
+        <td>
+          <b>[Assert Json]</b> expected = "{"getBookResponse": {"book": {"id": "$id-book", "title": "Animal Fa..", exact_mode = false, var_name = "soap-tester-last-msg"<br><font color="green">Assertion succeeded. <b>True</b> was expected as the result. Condition: (Expected JSON <b>'{"getBookResponse": {"book": {"id": "1", "title": "Animal Farm", "authorID": "3"}}}'</b> must be same as the JSON in the variable <b>'{"getBookResponse":{"book":{"id":"1","title":"Animal Farm","authorID":"3"}}}'</b>)</font>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="7"
+          author=""
+          tag="Testovánísprávyknih"
+          device="">
+          <div class="test-detail">
+            <p class="name">Test vytvoření knihy s neplatným údajem</p>
+            <p class="text-sm">
+              <span>15:52:59 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Test vytvoření knihy s neplatným údajem</h5>
+<span class='badge badge-success'>12.05.2025 15:52:59</span>
+<span class='badge badge-danger'>12.05.2025 15:52:59</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Testovánísprávyknih</span></div>
+<div class="m-t-10 m-l-5">V tomto testovacím připadě bude vytvořena jedna kniha, která má neplatné údaje. Předpokládá se, že nebude vytvořena.</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:09 PM</td>
+        <td>
+          <b>[Replace]</b> from_var = "tmp-create-book", to_var = "request"<br><font color="green">All strings <b>'[TMP_ID, TMP_TITLE, TMP_AUTHOR_ID]'</b> in variable <b>'tmp-create-book'</b> were successfully replaced with strings <b>'[0, , $id-author]'</b>. Final string stored it to the varialbe <b>'request'</b>.</font>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:09 PM</td>
+        <td>
+          <b>[Module Send]</b> name = "soap-tester", message = "$request"<br><font color="green">Message was successfully sent by module <b>'soap-tester'</b>. Message content: <b>&lt;soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service"&gt;
+   &lt;soapenv:Header /&gt;
+   &lt;soapenv:Body&gt;
+      &lt;lib:createBookRequest&gt;
+         &lt;lib:book&gt;
+            &lt;lib:id&gt;0&lt;/lib:id&gt;
+            &lt;lib:title&gt;&lt;/lib:title&gt;
+            &lt;lib:authorID&gt;3&lt;/lib:authorID&gt;
+         &lt;/lib:book&gt;
+      &lt;/lib:createBookRequest&gt;
+   &lt;/soapenv:Body&gt;
+&lt;/soapenv:Envelope&gt;
+</b></font>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:09 PM</td>
+        <td>
+          <b>[Assert String]</b> mode = "contains", expected = "ERROR:", case_sensitive = false, var_name = "soap-tester-last-msg"<br><font color="green">Assertion succeeded. <b>True</b> was expected as the result. Condition: (Value of variable <b>'ERROR: 500'</b> must contains expected text <b>'ERROR:'</b>)</font>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="8"
+          author=""
+          tag="Testovánísprávyknih"
+          device="">
+          <div class="test-detail">
+            <p class="name">Test změny dat knihy</p>
+            <p class="text-sm">
+              <span>15:52:59 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Test změny dat knihy</h5>
+<span class='badge badge-success'>12.05.2025 15:52:59</span>
+<span class='badge badge-danger'>12.05.2025 15:52:59</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Testovánísprávyknih</span></div>
+<div class="m-t-10 m-l-5">V tomto testovacím případě bude testováno, zda je možné změnit data již uložené knihy.</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:09 PM</td>
+        <td>
+          <b>[Replace]</b> from_var = "tmp-create-book", to_var = "request"<br><font color="green">All strings <b>'[TMP_ID, TMP_TITLE, TMP_AUTHOR_ID]'</b> in variable <b>'tmp-create-book'</b> were successfully replaced with strings <b>'[0, 1984, $id-author]'</b>. Final string stored it to the varialbe <b>'request'</b>.</font>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:10 PM</td>
+        <td>
+          <b>[Module Send]</b> name = "soap-tester", message = "$request"<br><font color="green">Message was successfully sent by module <b>'soap-tester'</b>. Message content: <b>&lt;soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service"&gt;
+   &lt;soapenv:Header /&gt;
+   &lt;soapenv:Body&gt;
+      &lt;lib:createBookRequest&gt;
+         &lt;lib:book&gt;
+            &lt;lib:id&gt;0&lt;/lib:id&gt;
+            &lt;lib:title&gt;1984&lt;/lib:title&gt;
+            &lt;lib:authorID&gt;3&lt;/lib:authorID&gt;
+         &lt;/lib:book&gt;
+      &lt;/lib:createBookRequest&gt;
+   &lt;/soapenv:Body&gt;
+&lt;/soapenv:Envelope&gt;
+</b></font>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:10 PM</td>
+        <td>
+          <b>[Json Get]</b> from_var = "soap-tester-last-msg", to_var = "id-book", param_name = "createBookResponse:book:id"<br><font color="green">The following json content has been stored in a variable named <b>[id-book]</b>: <b>'2'</b></font>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:10 PM</td>
+        <td>
+          <b>[Replace]</b> from_var = "tmp-update-book", to_var = "request"<br><font color="green">All strings <b>'[TMP_ID, TMP_TITLE, TMP_AUTHOR_ID]'</b> in variable <b>'tmp-update-book'</b> were successfully replaced with strings <b>'[$id-book, The Road to Wigan Pier, $id-author]'</b>. Final string stored it to the varialbe <b>'request'</b>.</font>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:10 PM</td>
+        <td>
+          <b>[Module Send]</b> name = "soap-tester", message = "$request"<br><font color="green">Message was successfully sent by module <b>'soap-tester'</b>. Message content: <b>&lt;soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service"&gt;
+   &lt;soapenv:Header /&gt;
+   &lt;soapenv:Body&gt;
+      &lt;lib:updateBookRequest&gt;
+         &lt;lib:bookId&gt;2&lt;/lib:bookId&gt;
+         &lt;lib:book&gt;
+            &lt;lib:id&gt;2&lt;/lib:id&gt;
+            &lt;lib:title&gt;The Road to Wigan Pier&lt;/lib:title&gt;
+            &lt;lib:authorID&gt;3&lt;/lib:authorID&gt;
+         &lt;/lib:book&gt;
+      &lt;/lib:updateBookRequest&gt;
+   &lt;/soapenv:Body&gt;
+&lt;/soapenv:Envelope&gt;
+</b></font>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:10 PM</td>
+        <td>
+          <b>[Replace]</b> from_var = "tmp-get-book", to_var = "request"<br><font color="green">All strings <b>'[TMP_ID]'</b> in variable <b>'tmp-get-book'</b> were successfully replaced with strings <b>'[$id-book]'</b>. Final string stored it to the varialbe <b>'request'</b>.</font>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:10 PM</td>
+        <td>
+          <b>[Module Send]</b> name = "soap-tester", message = "$request"<br><font color="green">Message was successfully sent by module <b>'soap-tester'</b>. Message content: <b>&lt;soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service"&gt;
+   &lt;soapenv:Header /&gt;
+   &lt;soapenv:Body&gt;
+      &lt;lib:getBookRequest&gt;
+         &lt;lib:bookId&gt;2&lt;/lib:bookId&gt;
+      &lt;/lib:getBookRequest&gt;
+   &lt;/soapenv:Body&gt;
+&lt;/soapenv:Envelope&gt;
+</b></font>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:10 PM</td>
+        <td>
+          <b>[Assert Json]</b> expected = "{"getBookResponse": {"book": {"id": "$id-book", "title": "The Road ..", exact_mode = false, var_name = "soap-tester-last-msg"<br><font color="green">Assertion succeeded. <b>True</b> was expected as the result. Condition: (Expected JSON <b>'{"getBookResponse": {"book": {"id": "2", "title": "The Road to Wigan Pier", "authorID": "3"}}}'</b> must be same as the JSON in the variable <b>'{"getBookResponse":{"book":{"id":"2","title":"The Road to Wigan Pier","authorID":"3"}}}'</b>)</font>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="9"
+          author=""
+          tag="Testovánísprávyknih"
+          device="">
+          <div class="test-detail">
+            <p class="name">Test odstranění knihy</p>
+            <p class="text-sm">
+              <span>15:52:59 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Test odstranění knihy</h5>
+<span class='badge badge-success'>12.05.2025 15:52:59</span>
+<span class='badge badge-danger'>12.05.2025 15:52:59</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Testovánísprávyknih</span></div>
+<div class="m-t-10 m-l-5">Bude testováno, zda je možné odstranit knihu z databaze pomocí odeslaného požadavku.</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:11 PM</td>
+        <td>
+          <b>[Replace]</b> from_var = "tmp-create-book", to_var = "request"<br><font color="green">All strings <b>'[TMP_ID, TMP_TITLE, TMP_AUTHOR_ID]'</b> in variable <b>'tmp-create-book'</b> were successfully replaced with strings <b>'[0, Down and Out in Paris and London, $id-author]'</b>. Final string stored it to the varialbe <b>'request'</b>.</font>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:11 PM</td>
+        <td>
+          <b>[Module Send]</b> name = "soap-tester", message = "$request"<br><font color="green">Message was successfully sent by module <b>'soap-tester'</b>. Message content: <b>&lt;soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service"&gt;
+   &lt;soapenv:Header /&gt;
+   &lt;soapenv:Body&gt;
+      &lt;lib:createBookRequest&gt;
+         &lt;lib:book&gt;
+            &lt;lib:id&gt;0&lt;/lib:id&gt;
+            &lt;lib:title&gt;Down and Out in Paris and London&lt;/lib:title&gt;
+            &lt;lib:authorID&gt;3&lt;/lib:authorID&gt;
+         &lt;/lib:book&gt;
+      &lt;/lib:createBookRequest&gt;
+   &lt;/soapenv:Body&gt;
+&lt;/soapenv:Envelope&gt;
+</b></font>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:11 PM</td>
+        <td>
+          <b>[Json Get]</b> from_var = "soap-tester-last-msg", to_var = "id-book", param_name = "createBookResponse:book:id"<br><font color="green">The following json content has been stored in a variable named <b>[id-book]</b>: <b>'3'</b></font>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:11 PM</td>
+        <td>
+          <b>[Replace]</b> from_var = "tmp-get-book", to_var = "request"<br><font color="green">All strings <b>'[TMP_ID]'</b> in variable <b>'tmp-get-book'</b> were successfully replaced with strings <b>'[$id-book]'</b>. Final string stored it to the varialbe <b>'request'</b>.</font>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:12 PM</td>
+        <td>
+          <b>[Module Send]</b> name = "soap-tester", message = "$request"<br><font color="green">Message was successfully sent by module <b>'soap-tester'</b>. Message content: <b>&lt;soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service"&gt;
+   &lt;soapenv:Header /&gt;
+   &lt;soapenv:Body&gt;
+      &lt;lib:getBookRequest&gt;
+         &lt;lib:bookId&gt;3&lt;/lib:bookId&gt;
+      &lt;/lib:getBookRequest&gt;
+   &lt;/soapenv:Body&gt;
+&lt;/soapenv:Envelope&gt;
+</b></font>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:12 PM</td>
+        <td>
+          <b>[Assert Json]</b> expected = "{"getBookResponse": {"book": {"id": "$id-book", "title": "Down and ..", exact_mode = false, var_name = "soap-tester-last-msg"<br><font color="green">Assertion succeeded. <b>True</b> was expected as the result. Condition: (Expected JSON <b>'{"getBookResponse": {"book": {"id": "3", "title": "Down and Out in Paris and London", "authorID": "3"}}}'</b> must be same as the JSON in the variable <b>'{"getBookResponse":{"book":{"id":"3","title":"Down and Out in Paris and London","authorID":"3"}}}'</b>)</font>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:12 PM</td>
+        <td>
+          <b>[Replace]</b> from_var = "tmp-delete-book", to_var = "request"<br><font color="green">All strings <b>'[TMP_ID]'</b> in variable <b>'tmp-delete-book'</b> were successfully replaced with strings <b>'[$id-book]'</b>. Final string stored it to the varialbe <b>'request'</b>.</font>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:12 PM</td>
+        <td>
+          <b>[Module Send]</b> name = "soap-tester", message = "$request"<br><font color="green">Message was successfully sent by module <b>'soap-tester'</b>. Message content: <b>&lt;soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service"&gt;
+   &lt;soapenv:Header /&gt;
+   &lt;soapenv:Body&gt;
+      &lt;lib:deleteBookRequest&gt;
+         &lt;lib:bookId&gt;3&lt;/lib:bookId&gt;
+      &lt;/lib:deleteBookRequest&gt;
+   &lt;/soapenv:Body&gt;
+&lt;/soapenv:Envelope&gt;
+</b></font>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:12 PM</td>
+        <td>
+          <b>[Replace]</b> from_var = "tmp-get-book", to_var = "request"<br><font color="green">All strings <b>'[TMP_ID]'</b> in variable <b>'tmp-get-book'</b> were successfully replaced with strings <b>'[$id-book]'</b>. Final string stored it to the varialbe <b>'request'</b>.</font>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:12 PM</td>
+        <td>
+          <b>[Module Send]</b> name = "soap-tester", message = "$request"<br><font color="green">Message was successfully sent by module <b>'soap-tester'</b>. Message content: <b>&lt;soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:lib="http://example.com/book-web-service"&gt;
+   &lt;soapenv:Header /&gt;
+   &lt;soapenv:Body&gt;
+      &lt;lib:getBookRequest&gt;
+         &lt;lib:bookId&gt;3&lt;/lib:bookId&gt;
+      &lt;/lib:getBookRequest&gt;
+   &lt;/soapenv:Body&gt;
+&lt;/soapenv:Envelope&gt;
+</b></font>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:12 PM</td>
+        <td>
+          <b>[Assert String]</b> mode = "contains", expected = "ERROR:", case_sensitive = false, var_name = "soap-tester-last-msg"<br><font color="green">Assertion succeeded. <b>True</b> was expected as the result. Condition: (Value of variable <b>'ERROR: 500'</b> must contains expected text <b>'ERROR:'</b>)</font>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="10"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Result score</p>
+            <p class="text-sm">
+              <span>15:53:13 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Result score</h5>
+<span class='badge badge-success'>12.05.2025 15:53:13</span>
+<span class='badge badge-danger'>12.05.2025 15:53:13</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
+</div>
+<div class="m-t-10 m-l-5">This is not a test case. This is an informative page containing the final score of the tested application.</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:13 PM</td>
+        <td>
+          Tested application for test suite 'Testování správy knih' get 6.29 / 6.29 points
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:13 PM</td>
+        <td>
+          Tested application for test suite 'Testování správy autorů' get 4.71 / 4.71 points
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:53:13 PM</td>
+        <td>
+          TOTAL SCORE: 11.00 / 11.00 points
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">2</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>3</span>
+</span>
+<p class="name">Testovánísprávyautorů</p>
+<p class="duration text-sm">3 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>Testovánísprávyautorů</h4>
+<span status="pass" class='badge log pass-bg'>3 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:52:59 PM</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>Test vytvoření autora</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:52:59 PM</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>Test vytvoření autora s neplatnými údaji</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:52:59 PM</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>Test odstranění autora</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>5</span>
+</span>
+<p class="name">Testovánísprávyknih</p>
+<p class="duration text-sm">5 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>Testovánísprávyknih</h4>
+<span status="pass" class='badge log pass-bg'>5 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:52:59 PM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>Test suite 'Testování správy knih' initialization</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:52:59 PM</td>
+<td>
+<a href="#" class="linked" test-id='6' id='6'>Test vytvoření knihy</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:52:59 PM</td>
+<td>
+<a href="#" class="linked" test-id='7' id='7'>Test vytvoření knihy s neplatným údajem</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:52:59 PM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='8'>Test změny dat knihy</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:52:59 PM</td>
+<td>
+<a href="#" class="linked" test-id='9' id='9'>Test odstranění knihy</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Dec 5, 2025 03:52:59 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Dec 5, 2025 03:53:13 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>10</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>10</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='98%'><b>61</b> events passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> events failed,
+<b data-tooltip='%'>1</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Test root initialization":0,"Test suite 'Testování správy knih' initialization":0,"Test vytvoření autora":0,"Test vytvoření autora s neplatnými údaji":0,"Test odstranění autora":0,"Test vytvoření knihy":0,"Test vytvoření knihy s neplatným údajem":0,"Test změny dat knihy":0,"Test odstranění knihy":0,"Result score":0
+};
+</script>
+<div class="row">
+<div class="col-md-4 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>Testovánísprávyautorů</td>
+<td>3</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>Testovánísprávyknih</td>
+<td>5</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 10,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 61,
+failEvents: 0,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 1
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@14e9bb345ef7e2ed3a102f271d84e9f0267c88e7/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
